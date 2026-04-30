@@ -17,245 +17,352 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
-  - name: HK 305 | ⬇️ 1MB/s
-    type: ss
-    server: 47.76.218.163
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰 HK 117 | ⬇️ 6MB/s
-    type: ss
-    server: 8.223.63.150
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 016 | ⬇️ 21MB/s
-    type: ss
-    server: 54.199.22.197
-    port: 2083
-    cipher: aes-128-gcm
-    password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: aoe.o.eoa.ccwu.cc
-      path: /?enc\=aes-128-gcm
-  - name: 🇭🇰 香港HK 535
-    type: ss
-    server: 103.43.191.121
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 018 | ⬇️ 2MB/s
-    type: ss
-    server: 114.33.57.170
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 038 | ⬇️ 7MB/s
-    type: ss
-    server: 45.77.23.80
-    port: 14985
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 026 | ⬇️ 2MB/s
-    type: ss
-    server: 114.33.57.170
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬新加坡SG 006 1.8MB/s
-    type: ss
-    server: 47.237.71.245
-    port: 15430
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国DE 481
-    type: ss
-    server: 104.26.5.170
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇨🇳 台湾TW 147
-    type: ss
-    server: 114.33.57.170
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇲🇩 MD 181 | ⬇️ 1MB/s
-    type: ss
-    server: 1.232.206.121
-    port: 14399
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\\
-  - name: 🇮🇹 意大利 1035
-    type: ss
-    server: 96.126.190.196
-    port: 443
-    cipher: aes-128-gcm
-    password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: aoe.o.eoa.ccwu.cc
-      path: /?enc\=aes-128-gcm
-  - name: 🇭🇰 香港 1234
+  - name: 德国
     type: vmess
-    server: 38.22.93.20
-    port: 55165
-    uuid: 8108a7dc-6162-4366-d492-23dcd3553e38
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港 1235
+    udp: true
+  - name: 🇩🇪 德国 04
     type: vmess
-    server: 38.22.93.20
-    port: 15079
-    uuid: 66e12acd-4f93-4e35-e229-5f93e2f379e1
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇰🇷 韩国 1435
-    type: hysteria2
-    server: vpn-kr-003.fastervpn.world
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-kr-003.fastervpn.world
-    skip-cert-verify: true
-  - name: 🇭🇰 HK 150 | ⬇️ 1MB/s
-    type: ss
-    server: 153.121.45.101
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪 德国DE 537
-    type: ss
-    server: 136.244.80.24
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 捷克 🇨🇿  CZ 268
-    type: trojan
-    server: 194.87.77.91
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 793
-    type: trojan
-    server: 219.255.114.230
-    port: 10243
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 伊朗 🇮🇷  IR 371
-    type: trojan
-    server: 213.176.77.30
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 捷克 🇨🇿  CZ 217
-    type: trojan
-    server: 194.87.77.2
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇸🇪 瑞典 1786
-    type: trojan
-    server: 194.87.77.91
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    udp: true
+  - name: 🇺🇸 US 329 | ⬇️ 5MB/s
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: false
-    tls: true
+    udp: true
+  - name: 🇺🇸 US 295 | ⬇️ 1MB/s
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国 1406
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 215
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 224
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 209
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国 1836
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 210
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_check
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_23|1.9MB/s
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_1|5.8MB/s
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US-218
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US-211
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: KR
+    type: vmess
+    server: kr02.a0a.xyz
+    port: 80
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /cctv13.m3u8
       headers:
-        Host: kfm-bn0.pages.dev
+        Host: kr02.a0a.xyz
+    udp: true
+  - name: 英国 V2CROSS.COM
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇬🇧 英国 V2CROSS.COM
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇬🇧 英国 V2CROSS.COM_1
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇬🇧 英国 V2CROSS.COM_2
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_check_1
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇬🇧 英国 V2CROSS.COM_3
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 英国 V2CROSS.COM_1
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇳🇱NL_11|19KB/s
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: wwzVn2ZnHfqYa6l8EWh3eY
+    udp: true
+  - name: 🇺🇸US_31|58KB/s
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+    udp: true
+  - name: US SS-29 | free-nodes
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+    udp: true
+  - name: GB SS-30 | free-nodes
+    type: ss
+    server: chengbai02.ascwt179.com
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+    udp: true
+  - name: 香港+电讯盈科有限公司
+    type: ss
+    server: chengbai02.ascwt179.com
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+    udp: true
+  - name: 未知 SS-25 | free-nodes
+    type: ss
+    server: 20.87.107.99
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: akMKO9KXowxFcx5A
+    udp: true
+  - name: TW SS-07 | free-nodes
+    type: ss
+    server: r3mrcg007147vhp.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+  - name: 🇭🇰HK_1|261KB/s
+    type: vless
+    server: 216.57.105.74
+    port: 443
+    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+    servername: yahoo.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+      short-id: "11e2"
+    udp: true
   - name: 🇹🇼 TW 020 | ⬇️ 12MB/s
     type: vless
     server: 125.227.219.98
@@ -269,825 +376,194 @@ proxies:
       path: /xxxxhttp
       headers:
         Host: baidu.com
-  - name: 奥地利 🇦🇹  AT 99
-    type: trojan
-    server: 77.110.116.7
+    udp: true
+  - name: DE VLESS-103 | free-nodes
+    type: vless
+    server: finl9.keepsecured.net
     port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    servername: finl9.keepsecured.net
+    tls: true
+    client-fingerprint: chrome
+    udp: true
+  - name: DE VLESS-98 | free-nodes
+    type: vless
+    server: xn-dns.onlineblog.ir
+    port: 2083
+    uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
+    network: ws
+    servername: xn-de.shakhle.ir.
     tls: true
     ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
+      path: /
       headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇮🇳 印度IN 349
-    type: ss
-    server: 20.235.105.146
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪 德国DE 764
-    type: ss
-    server: 91.239.157.93
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇷🇺 俄罗斯RU 669
+        Host: xn-de.shakhle.ir.
+    udp: true
+  - name: DE VLESS-88 | free-nodes
     type: vless
-    server: 5.188.158.225
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    servername: cluster-russia-1.firstvideocdn.ru
+    server: 8.6.112.6
+    port: 443
+    uuid: 7f6a8bf3-e8fc-473e-8acb-acee6321ec40
+    network: ws
+    servername: tbp.zuhn.ir
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /test
+      headers:
+        Host: tbp.zuhn.ir
+    udp: true
+  - name: US
+    type: vless
+    server: xn-dns.onlineblog.ir
+    port: 2083
+    uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
+    network: ws
+    servername: xn-de.shakhle.ir.
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: xn-de.shakhle.ir.
+    udp: true
+  - name: GB VLESS-136 | free-nodes
+    type: vless
+    server: s643.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031u7190s643.ccgfw.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: GB VLESS-167 | free-nodes
+    type: vless
+    server: s642.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031u4c78s642.ccgfw.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: GB VLESS-132 | free-nodes
+    type: vless
+    server: s644.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031ud3c8s644.ccgfw.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: US_1
+    type: vless
+    server: pl74.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    servername: pl74.mechvpn.online
+    tls: true
+    flow: xtls-rprx-vision
+    udp: true
+  - name: US VLESS-73 | free-nodes
+    type: vless
+    server: 95.164.85.33
+    port: 443
+    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+    servername: www.rakuten.co.jp
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-  - name: 🇺🇸 美国US 402
-    type: ss
-    server: 104.238.70.16
+    reality-opts:
+      public-key: -n5iY1LH6WNzxc6_sQg_phf04553mzBExCqQzRvoA3U
+      short-id: 41427aa565e28984
+    udp: true
+  - name: VLESS-xhttp-Reality-Vision
+    type: vless
+    server: 178.18.147.163
+    port: 15530
+    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
+    network: xhttp
+    servername: www.microsoft.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+      short-id: aa45df0f
+    udp: true
+    xhttp-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+  - name: JP VLESS-90 | free-nodes
+    type: vless
+    server: dongjing4.zqjsqapi.com
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国US 1027
-    type: ss
-    server: 50.62.88.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国 1406
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇺🇸 美国US 215
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇺🇸 美国US 224
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-  - name: 🇩🇪 德国DE 817
-    type: ss
-    server: 193.23.210.225
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_4|560KB/s
-    type: ss
-    server: 198.12.144.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 540
-    type: ss
-    server: 185.246.155.198
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国US 427
-    type: ss
-    server: 162.220.13.14
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK 092 | ⬇️ 1MB/s
-    type: ss
-    server: 104.238.70.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: US
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 瑞典 🇸🇪  SE 306
-    type: trojan
-    server: 138.124.34.36
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
+    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+    network: ws
+    servername: dongjing4.zqjsqapi.com
     tls: true
     ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇩🇪 德国DE 984
-    type: trojan
-    server: 158.101.190.78
+      path: /proxy
+    udp: true
+  - name: US VLESS-159 | free-nodes
+    type: vless
+    server: s173.okgg.top
     port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031ua226s173.okgg.top
     tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 德国
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇭🇰 HK 086 | ⬇️ 1MB/s
-    type: ss
-    server: 50.62.90.16
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 未知 VLESS-146 | free-nodes
+    type: vless
+    server: s502.okgg.top
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 伊朗 🇮🇷  IR 338
-    type: trojan
-    server: 213.176.77.231
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031u761bs502.okgg.top
     tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 521
-    type: trojan
-    server: 121.173.15.62
-    port: 30005
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 未知 VLESS-156 | free-nodes
+    type: vless
+    server: s348.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031u6fa5s348.ccgfw.top
     tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 647
-    type: trojan
-    server: 59.20.251.99
-    port: 18246
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 未知 VLESS-151 | free-nodes
+    type: vless
+    server: ipv6s372.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031u58f7ipv6s372.ccgfw.top
     tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国 25
-    type: ss
-    server: 50.62.195.16
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 未知 VLESS-138 | free-nodes
+    type: vless
+    server: s473.ccgfw.top
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK 132 | ⬇️ 1MB/s
-    type: ss
-    server: 154.194.0.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国US 410
-    type: ss
-    server: 45.40.154.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国 1803
-    type: trojan
-    server: 144.31.118.170
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031uefc5s473.ccgfw.top
     tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国 1797
-    type: trojan
-    server: 144.31.118.170
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 未知 VLESS-157 | free-nodes
+    type: vless
+    server: s501.ccgfw.top
     port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: u712031u2c89s501.ccgfw.top
     tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 531
-    type: trojan
-    server: 118.39.2.62
-    port: 20005
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 256
-    type: trojan
-    server: 203.251.64.95
-    port: 12999
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国US 398
-    type: ss
-    server: 50.62.195.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 US 295 | ⬇️ 1MB/s
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国KR 275
-    type: trojan
-    server: 211.194.210.183
-    port: 30047
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 267
-    type: trojan
-    server: 220.124.181.77
-    port: 18081
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇩🇪 德国DE 990
-    type: trojan
-    server: 158.101.190.78
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国 1639
-    type: trojan
-    server: 121.175.77.73
-    port: 10443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 US 252 | ⬇️ 9MB/s
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇯🇵 JP 050 | ⬇️ 2MB/s
-    type: ss
-    server: 31.58.226.196
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷 韩国KR 586
-    type: trojan
-    server: 121.145.126.10
-    port: 10035
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国 1836
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国KR 265
-    type: trojan
-    server: 222.116.195.135
-    port: 19530
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇭🇰 HK 207 | ⬇️ 1MB/s
-    type: ss
-    server: 45.40.154.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 621
-    type: trojan
-    server: 121.151.223.104
-    port: 10003
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇯🇵 JP 076 | ⬇️ 24MB/s
-    type: ss
-    server: cf.090227.xyz
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国DE 925
-    type: ss
-    server: 64.238.203.69
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷 韩国KR 580
-    type: trojan
-    server: 222.113.18.205
-    port: 11001
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 244
-    type: trojan
-    server: 222.117.231.32
-    port: 38241
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇭🇰 HK 148 | ⬇️ 2MB/s
-    type: ss
-    server: 45.40.147.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 273
-    type: trojan
-    server: 203.243.4.91
-    port: 16923
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇩🇪 德国DE 536
-    type: ss
-    server: 162.159.153.73
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬 新加坡SG 161
-    type: ss
-    server: 172.64.35.120
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: US_1
-    type: ss
-    server: 152.70.113.150
-    port: 52125
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国 16
-    type: ss
-    server: 160.153.137.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪 德国DE 557
-    type: ss
-    server: 94.159.100.136
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国US 305
-    type: ss
-    server: 104.19.51.239
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 瑞士 🇨🇭  CH 214
-    type: trojan
-    server: 138.124.32.120
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 573
-    type: trojan
-    server: 220.125.207.242
-    port: 25565
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 582
-    type: trojan
-    server: 222.116.29.213
-    port: 23791
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国US 395
-    type: ss
-    server: 216.205.52.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国US 209
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇩🇪 德国DE 890
-    type: ss
-    server: 172.86.68.95
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 260
-    type: trojan
-    server: 121.129.33.208
-    port: 10911
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇰🇷 韩国KR 614
-    type: trojan
-    server: 121.151.223.104
-    port: 18085
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇸🇬 新加坡SG 111
-    type: ss
-    server: 162.159.7.190
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国 04
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇯🇵 日本JP 86
-    type: ss
-    server: 172.64.52.123
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷 韩国KR 511
-    type: trojan
-    server: 118.47.197.17
-    port: 28017
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 美国 🇺🇸  US 135
-    type: trojan
-    server: 131.143.125.183
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国US 346
-    type: ss
-    server: 160.153.137.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 664
-    type: ss
-    server: 211.48.77.114
-    port: 19655
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 055 | ⬇️ 1MB/s
-    type: ss
-    server: 211.48.77.114
-    port: 12312
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸 美国US 393
-    type: ss
-    server: 104.19.42.95
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 810
-    type: ss
-    server: 211.48.77.114
-    port: 12312
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 日本 1076
-    type: ss
-    server: store.ubi.com
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇳🇱 荷兰NL 510
-    type: ss
-    server: 89.169.5.27
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
   - name: 00-Trojan-jp-AI
     type: trojan
     server: jp.111000.cc.cd
@@ -1102,1681 +578,682 @@ proxies:
       path: /?ed=2560&proxyip=ip.111000.de5.net:443
       headers:
         Host: sni.111000.dynv6.net
-  - name: US_2
-    type: vless
-    server: cluster-russia-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    servername: cluster-russia-1.firstvideocdn.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇰🇷 韩国KR 417
+    udp: true
+  - name: JP TROJAN-45 | free-nodes
     type: trojan
-    server: 118.36.233.194
-    port: 11300
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇳🇱 荷兰NL 563
-    type: ss
-    server: 185.235.131.40
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 230 | ⬇️ 2MB/s
-    type: ss
-    server: 103.133.1.38
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 032 | ⬇️ 13MB/s
-    type: ss
-    server: cf.877774.xyz
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬 新加坡SG 139
-    type: ss
-    server: mfa.gov.ua
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: US_3
-    type: ss
-    server: mfa.gov.ua
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰 HK 133 | ⬇️ 1MB/s
-    type: ss
-    server: 211.48.77.114
-    port: 12312
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 日本JP 71
-    type: ss
-    server: 172.64.53.200
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国DE 475
-    type: ss
-    server: 162.159.152.154
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 040 | ⬇️ 1MB/s
-    type: ss
-    server: mfa.gov.ua
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: US_4
-    type: ss
-    server: 162.159.38.122
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇬🇧 英国GB 927
-    type: ss
-    server: 45.63.100.255
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 096 | ⬇️ 1MB/s
-    type: ss
-    server: 211.48.77.114
-    port: 12312
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸 美国US 407
-    type: ss
-    server: 154.40.46.28
-    port: 46757
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 023 | ⬇️ 18MB/s
-    type: ss
-    server: sub.danfeng.eu.org
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸 美国US 325
-    type: ss
-    server: 104.17.155.209
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 024 | ⬇️ 20MB/s
-    type: ss
-    server: cf.zhetengsha.eu.org
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 JP 042 | ⬇️ 1MB/s
-    type: ss
-    server: 199.181.197.38
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇮🇹 意大利 1097
-    type: ss
-    server: 98.70.26.236
-    port: 443
-    cipher: aes-128-gcm
-    password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: aoe.o.eoa.ccwu.cc
-      path: /?enc\=aes-128-gcm
-  - name: 🇯🇵 JP 037 | ⬇️ 29MB/s
-    type: ss
-    server: store.ubi.com
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷 韩国KR 632
-    type: trojan
-    server: 220.78.7.17
-    port: 18001
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    server: jp2-8sb.6121999.dpdns.org
+    port: 24534
+    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
+    sni: jp2-8sb.6121999.dpdns.org
     skip-cert-verify: false
     tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇸🇬 新加坡SG 134
-    type: ss
-    server: 104.18.42.84
+    udp: true
+  - name: 🇻🇳 越南VN-441
+    type: hysteria2
+    server: vpn-vn-001.fastervpn.world
     port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 日本JP 105
-    type: ss
-    server: 162.159.44.70
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬 新加坡SG 107
-    type: ss
-    server: 173.245.59.177
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: "[IPv6] 🇮🇹 意大利 1085"
-    type: ss
-    server: fn.130519.xyz
-    port: 443
-    cipher: aes-128-gcm
-    password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: aoe.o.eoa.ccwu.cc
-      path: /?enc\=aes-128-gcm
-  - name: 🇰🇷 韩国KR 640
-    type: trojan
-    server: 59.12.232.18
-    port: 14534
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-vn-001.fastervpn.world
     skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇮🇹 意大利 1065
-    type: ss
-    server: freeyx.cloudflare88.eu.org
+    udp: true
+  - name: 🇬🇧 英国-1416
+    type: hysteria2
+    server: vpn-uk-002.fastervpn.world
     port: 443
-    cipher: aes-128-gcm
-    password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: aoe.o.eoa.ccwu.cc
-      path: /?enc\=aes-128-gcm
-  - name: 🇬🇧 英国GB 604
-    type: ss
-    server: 87.117.247.27
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 美国US 1013
-    type: ss
-    server: 199.181.197.38
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 日本JP 100
-    type: ss
-    server: 162.159.38.157
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美国 🇺🇸  US 167
-    type: trojan
-    server: 64.188.115.82
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-uk-002.fastervpn.world
     skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国US 425
-    type: ss
-    server: 104.168.146.122
+    udp: true
+  - name: 🇩🇪 德国DE-154
+    type: hysteria2
+    server: vpn-de-002.fastervpn.world
     port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 597
-    type: trojan
-    server: 221.167.19.89
-    port: 34567
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-de-002.fastervpn.world
     skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇯🇵 日本JP 92
-    type: ss
-    server: 162.159.38.134
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 523
-    type: trojan
-    server: 222.119.19.248
-    port: 32770
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    udp: true
+  - name: 🇩🇪 德国DE-197
+    type: hysteria2
+    server: 178.18.147.66
+    port: 29900
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: www.microsoft.com
     skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 德国 🇩🇪  DE 78
-    type: trojan
-    server: 45.144.55.148
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
+    udp: true
+  - name: hysteria2-warp
+    type: hysteria2
+    server: 83.243.86.103
+    port: 38563
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: www.microsoft.com
     skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇩🇪 德国DE 748
+    udp: true
+  - name: 🇸🇬 ⚡️️NZ新西兰
     type: ss
-    server: 179.61.132.245
-    port: 2053
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬 新加坡SG 184
+    server: za.peaceandlove2017.com
+    port: 56732
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇳🇬 ⚡️️NG尼日利亚
     type: ss
-    server: 104.18.32.9
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 294
-    type: trojan
-    server: 220.87.152.138
-    port: 30005
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇸🇬 新加坡SG 140
+    server: za.peaceandlove2017.com
+    port: 17609
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇰🇷 ⚡️KR韩国
     type: ss
-    server: 104.18.42.47
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 226 | ⬇️ 4MB/s
+    server: za.peaceandlove2017.com
+    port: 35230
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇱🇻 ⚡️️LV拉脱维亚  | Disney
     type: ss
-    server: 91.223.169.88
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国DE 818
-    type: trojan
-    server: 188.245.161.141
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇩🇪 德国DE 999
-    type: trojan
-    server: 193.23.218.192
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国 1801
-    type: trojan
-    server: 144.31.139.103
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 瑞典 🇸🇪  SE 80
-    type: trojan
-    server: 138.124.49.137
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇫🇷 法国 01
+    server: za.peaceandlove2017.com
+    port: 58179
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇰🇿 ⚡️️KZ哈萨克斯坦
     type: ss
-    server: 135.125.191.9
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 867
+    server: za.peaceandlove2017.com
+    port: 22165
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇦🇿 ⚡️️AZ阿塞拜疆
     type: ss
-    server: 91.84.96.186
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇳🇱 荷兰NL 762
+    server: za.peaceandlove2017.com
+    port: 19037
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
     type: ss
-    server: 212.34.128.155
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 804
+    server: za.peaceandlove2017.com
+    port: 37268
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇵🇹 ⚡️️PT葡萄牙  | Disney
     type: ss
-    server: 212.34.142.54
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国 1061
-    type: trojan
-    server: 220.127.68.28
-    port: 50001
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 奥地利 🇦🇹  AT 341
-    type: trojan
-    server: 152.53.138.238
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇨🇭 瑞士 1709
-    type: trojan
-    server: 138.124.28.173
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇺🇸 美国US 388
+    server: za.peaceandlove2017.com
+    port: 40873
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇮🇪 ⚡️️IE爱尔兰  | Disney
     type: ss
-    server: 104.19.32.31
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🏴‍☠️ 其他 1784
-    type: trojan
-    server: 80.253.249.66
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇬🇧 英国GB 634
+    server: za.peaceandlove2017.com
+    port: 12227
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇫🇮 ️⚡️FI芬兰
     type: ss
-    server: 57.128.183.77
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇬🇧 英国 02
+    server: za.peaceandlove2017.com
+    port: 14383
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇸🇰 ⚡️️SK斯洛伐克  | Disney
     type: ss
-    server: 57.129.137.51
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇨🇭 瑞士 1707
-    type: trojan
-    server: 138.124.28.173
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇳🇱 荷兰NL 780
+    server: za.peaceandlove2017.com
+    port: 24313
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇮🇸 ⚡️️IS冰岛
     type: ss
-    server: 5.252.118.47
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇬🇧 英国GB 602
+    server: za.peaceandlove2017.com
+    port: 45556
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇸 ⚡️️AM亚美尼亚 | Disney
     type: ss
-    server: 57.128.183.77
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 德国 🇩🇪  DE 82
-    type: trojan
-    server: 64.188.118.193
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: HK
+    server: za.peaceandlove2017.com
+    port: 14497
+    cipher: 2022-blake3-aes-128-gcm
+    password: ZTA0YmEwNjZhYzVkMmI0Yg==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇨🇭 ⚡️️CH瑞士  | Disney
     type: ss
-    server: 47.76.218.163
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇬🇧 英国GB 605
+    server: za.peaceandlove2017.com
+    port: 20261
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇳🇴 ⚡️️NO挪威
     type: ss
-    server: 57.128.178.183
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇬🇧 英国GB 613
+    server: za.peaceandlove2017.com
+    port: 10054
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇦 ⚡️️UA乌克兰
     type: ss
-    server: 91.199.32.99
-    port: 2053
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美国 🇺🇸  US 280
-    type: trojan
-    server: 144.31.51.34
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: US_5
+    server: za.peaceandlove2017.com
+    port: 40862
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇧🇬 ⚡️️BG保加利亚
     type: ss
-    server: 104.168.87.155
-    port: 5432
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰 03
+    server: za.peaceandlove2017.com
+    port: 19253
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇸🇮 ⚡️SI斯洛文尼亚
     type: ss
-    server: 5.253.189.215
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 瑞典 🇸🇪  SE 133
-    type: trojan
-    server: 109.120.134.104
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 德国 🇩🇪  DE 267
-    type: trojan
-    server: 152.53.119.132
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇳🇱 荷兰NL 610
+    server: za.peaceandlove2017.com
+    port: 20234
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇵🇱 ⚡️️PL波兰  | Disney
     type: ss
-    server: 82.115.5.157
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇳🇱 荷兰NL 626
+    server: za.peaceandlove2017.com
+    port: 46473
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇨🇿 ⚡️️CZ捷克
     type: ss
-    server: 185.209.161.243
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇫🇷 法国FR 716
+    server: za.peaceandlove2017.com
+    port: 45128
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇬🇷 ⚡️️GR希腊
     type: ss
-    server: 185.193.89.62
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 722
+    server: za.peaceandlove2017.com
+    port: 18236
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇪🇸 ⚡️️ES西班牙
     type: ss
-    server: 194.87.219.235
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷 韩国KR 677
-    type: trojan
-    server: 49.142.200.31
-    port: 28017
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 奥地利 🇦🇹  AT 224
-    type: trojan
-    server: 152.53.236.205
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇭🇰 香港HK 979
+    server: za.peaceandlove2017.com
+    port: 27409
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇬🇧 ⚡️UK英国
     type: ss
-    server: 103.15.90.134
-    port: 49678
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 312 | ⬇️ 6MB/s
+    server: za.peaceandlove2017.com
+    port: 49657
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇦🇹 ⚡️️AT奥地利  | Disney
     type: ss
-    server: 195.135.254.173
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 奥地利 🇦🇹  AT 233
-    type: trojan
-    server: 152.53.228.86
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇭🇰HK_1|261KB/s
-    type: vless
-    server: 216.57.105.74
-    port: 443
-    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-      short-id: "11e2"
-  - name: 🇩🇪 DE 410 | ⬇️ 1MB/s
-    type: vless
-    server: 159.195.82.187
-    port: 9443
-    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-    servername: yahoo.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-      short-id: 2344766a270a6298
-  - name: 🇩🇪 德国DE 803
+    server: za.peaceandlove2017.com
+    port: 34333
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇸 ⚡️US美国 - 01
     type: ss
-    server: 31.172.83.252
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪 德国DE 828
+    server: za.peaceandlove2017.com
+    port: 16171
+    cipher: 2022-blake3-aes-128-gcm
+    password: ZTA0YmEwNjZhYzVkMmI0Yg==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇸 ⚡️US美国 - 02
     type: ss
-    server: 172.104.143.156
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 阿拉伯联合酋长国 🇦🇪  AE 106
-    type: trojan
-    server: 104.128.139.68
-    port: 443
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
-  - name: 🇭🇰 HK 184 | ⬇️ 11MB/s
+    server: za.peaceandlove2017.com
+    port: 23266
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇸 ⚡️US美国 - 05
     type: ss
-    server: 139.144.181.54
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇻🇳 越南 06
+    server: za.peaceandlove2017.com
+    port: 35515
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇧🇪 ⚡️️BE比利时  | Disney
     type: ss
-    server: 103.15.90.134
-    port: 49678
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 566
+    server: za.peaceandlove2017.com
+    port: 38240
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇸 ️⚡️US美国 - 03
     type: ss
-    server: 95.47.138.133
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK 065 | ⬇️ 4MB/s
+    server: za.peaceandlove2017.com
+    port: 28107
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇩🇪 ⚡️️DE德国  | Disney
     type: ss
-    server: 139.162.141.75
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 781
+    server: za.peaceandlove2017.com
+    port: 45314
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇮🇹 ⚡️️IT意大利
     type: ss
-    server: 185.245.105.178
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 625
+    server: za.peaceandlove2017.com
+    port: 22899
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇺🇸 ⚡️US美国 - 04
     type: ss
-    server: 194.87.0.156
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰 香港 1081
+    server: za.peaceandlove2017.com
+    port: 22440
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇮🇳 ⚡️IN印度
     type: ss
-    server: 143.42.66.91
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪 德国DE 779
+    server: za.peaceandlove2017.com
+    port: 36571
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇻🇳 ⚡️VN越南
     type: ss
-    server: 172.86.68.95
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇪 瑞典SE 703
+    server: za.peaceandlove2017.com
+    port: 24909
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇲🇾 ⚡️️MY马来西亚
     type: ss
-    server: 195.123.210.147
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇳🇱 荷兰NL 559
+    server: za.peaceandlove2017.com
+    port: 41431
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇯🇵 ⚡️️JP日本 - 04
     type: ss
-    server: 178.208.79.186
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国 03
+    server: za.peaceandlove2017.com
+    port: 13675
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇯🇵 ⚡️JP日本 - 02
     type: ss
-    server: 192.46.237.206
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪 德国DE 567
+    server: za.peaceandlove2017.com
+    port: 45983
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇹🇼 ⚡️TW台湾 - 03
     type: ss
-    server: 89.58.13.151
-    port: 1010
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪 德国 09
+    server: za.peaceandlove2017.com
+    port: 24521
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇯🇵 ⚡️JP日本 - 01
     type: ss
-    server: 194.233.167.228
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇳🇱 荷兰NL 642
+    server: za.peaceandlove2017.com
+    port: 34075
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇯🇵 ⚡️JP日本 - 03
     type: ss
-    server: 178.208.82.119
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇳🇱NL_14|23KB/s
+    server: za.peaceandlove2017.com
+    port: 48082
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇸🇬 ⚡️SG新加坡 - 02 | Disney
     type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-  - name: 🇳🇱 荷兰NL 652
+    server: za.peaceandlove2017.com
+    port: 22875
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇸🇬 ⚡️SG新加坡 - 03
     type: ss
-    server: 178.208.80.52
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸US_31|58KB/s
+    server: za.peaceandlove2017.com
+    port: 28269
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇹🇼 ️⚡️TW台湾 - 02
     type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: 🇳🇱NL_11|19KB/s
+    server: za.peaceandlove2017.com
+    port: 25417
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️️HK香港 - 03 | Disney
     type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: wwzVn2ZnHfqYa6l8EWh3eY
-  - name: 🇳🇱NL_12|31KB/s
+    server: za.peaceandlove2017.com
+    port: 42054
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️HK香港 - 11
     type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: RFK38Cg7APneSB5cWDcpbm
-  - name: 🇭🇰 香港HK 998
+    server: za.peaceandlove2017.com
+    port: 23834
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️HK香港 - 07
     type: ss
-    server: 116.44.53.251
-    port: 12126
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 036 | ⬇️ 1MB/s
+    server: za.peaceandlove2017.com
+    port: 39648
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️️HK香港 - 05 | Disney
     type: ss
-    server: 46.246.96.59
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵 日本JP 233
+    server: za.peaceandlove2017.com
+    port: 42056
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️HK香港 - 10
     type: ss
-    server: 140.83.34.214
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: HK_1
+    server: za.peaceandlove2017.com
+    port: 22191
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️HK香港 - 12
     type: ss
-    server: 47.242.145.136
-    port: 8001
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\
-  - name: 🇭🇰 HK 170 | ⬇️ 2MB/s
+    server: za.peaceandlove2017.com
+    port: 10518
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️️HK香港 - 01  | Disney
     type: ss
-    server: 140.238.51.35
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸 US 329 | ⬇️ 5MB/s
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇯🇵 JP 354 | ⬇️ 1MB/s
+    server: za.peaceandlove2017.com
+    port: 42052
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️️HK香港 - 06 | Disney
     type: ss
-    server: 94.159.102.107
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 德国_1
-    type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国 05
+    server: za.peaceandlove2017.com
+    port: 23479
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️HK香港 - 08
     type: ss
-    server: 116.93.199.28
-    port: 22140
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵 JP 397 | ⬇️ 4MB/s
+    server: za.peaceandlove2017.com
+    port: 14987
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️️HK香港 - 04 | Disney
     type: ss
-    server: 195.123.210.147
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷 韩国KR 656
-    type: trojan
-    server: 220.118.233.240
-    port: 23791
-    password: "1234567890"
-    sni: kfm-bn0.pages.dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: kfm-bn0.pages.dev
+    server: za.peaceandlove2017.com
+    port: 42055
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️️HK香港 - 02 | Disney
+    type: ss
+    server: za.peaceandlove2017.com
+    port: 42053
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
+  - name: 🇭🇰 ⚡️HK香港 - 09
+    type: ss
+    server: za.peaceandlove2017.com
+    port: 10228
+    cipher: 2022-blake3-aes-128-gcm
+    password: YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ==
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -2786,865 +1263,485 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3667,217 +1764,122 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK 305 | ⬇️ 1MB/s
-      - 🇭🇰 HK 117 | ⬇️ 6MB/s
-      - 🇯🇵 JP 016 | ⬇️ 21MB/s
-      - 🇭🇰 香港HK 535
-      - 🇯🇵 JP 018 | ⬇️ 2MB/s
-      - 🇯🇵 JP 038 | ⬇️ 7MB/s
-      - 🇯🇵 JP 026 | ⬇️ 2MB/s
-      - 🇸🇬新加坡SG 006 1.8MB/s
-      - 🇩🇪 德国DE 481
-      - 🇨🇳 台湾TW 147
-      - 🇲🇩 MD 181 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1035
-      - 🇭🇰 香港 1234
-      - 🇭🇰 香港 1235
-      - 🇰🇷 韩国 1435
-      - 🇭🇰 HK 150 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 537
-      - 捷克 🇨🇿  CZ 268
-      - 🇰🇷 韩国KR 793
-      - 伊朗 🇮🇷  IR 371
-      - 捷克 🇨🇿  CZ 217
-      - 🇸🇪 瑞典 1786
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 奥地利 🇦🇹  AT 99
-      - 🇮🇳 印度IN 349
-      - 🇩🇪 德国DE 764
-      - 🇷🇺 俄罗斯RU 669
-      - 🇺🇸 美国US 402
-      - 🇺🇸 美国US 1027
+      - 德国
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
       - 🇺🇸 美国 1406
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 🇩🇪 德国DE 817
-      - 🇺🇸US_4|560KB/s
-      - 🇳🇱 荷兰NL 540
-      - 🇺🇸 美国US 427
-      - 🇭🇰 HK 092 | ⬇️ 1MB/s
-      - US
-      - 瑞典 🇸🇪  SE 306
-      - 🇩🇪 德国DE 984
-      - 德国
-      - 🇭🇰 HK 086 | ⬇️ 1MB/s
-      - 伊朗 🇮🇷  IR 338
-      - 🇰🇷 韩国KR 521
-      - 🇰🇷 韩国KR 647
-      - 🇺🇸 美国 25
-      - 🇭🇰 HK 132 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 410
-      - 🇺🇸 美国 1803
-      - 🇺🇸 美国 1797
-      - 🇰🇷 韩国KR 531
-      - 🇰🇷 韩国KR 256
-      - 🇺🇸 美国US 398
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 275
-      - 🇰🇷 韩国KR 267
-      - 🇩🇪 德国DE 990
-      - 🇰🇷 韩国 1639
-      - 🇺🇸 US 252 | ⬇️ 9MB/s
-      - 🇯🇵 JP 050 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 586
-      - 🇺🇸 美国 1836
-      - 🇰🇷 韩国KR 265
-      - 🇭🇰 HK 207 | ⬇️ 1MB/s
-      - 🇰🇷 韩国KR 621
-      - 🇯🇵 JP 076 | ⬇️ 24MB/s
-      - 🇩🇪 德国DE 925
-      - 🇰🇷 韩国KR 580
-      - 🇰🇷 韩国KR 244
-      - 🇭🇰 HK 148 | ⬇️ 2MB/s
-      - 🇰🇷 韩国KR 273
-      - 🇩🇪 德国DE 536
-      - 🇸🇬 新加坡SG 161
-      - US_1
-      - 🇺🇸 美国 16
-      - 🇩🇪 德国DE 557
-      - 🇺🇸 美国US 305
-      - 瑞士 🇨🇭  CH 214
-      - 🇰🇷 韩国KR 573
-      - 🇰🇷 韩国KR 582
-      - 🇺🇸 美国US 395
       - 🇺🇸 美国US 209
-      - 🇩🇪 德国DE 890
-      - 🇰🇷 韩国KR 260
-      - 🇰🇷 韩国KR 614
-      - 🇸🇬 新加坡SG 111
-      - 🇩🇪 德国 04
-      - 🇯🇵 日本JP 86
-      - 🇰🇷 韩国KR 511
-      - 美国 🇺🇸  US 135
-      - 🇺🇸 美国US 346
-      - 🇰🇷 韩国KR 664
-      - 🇯🇵 JP 055 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 393
-      - 🇰🇷 韩国KR 810
-      - 🇯🇵 日本 1076
-      - 🇳🇱 荷兰NL 510
-      - 00-Trojan-jp-AI
-      - US_2
-      - 🇰🇷 韩国KR 417
-      - 🇳🇱 荷兰NL 563
-      - 🇯🇵 JP 230 | ⬇️ 2MB/s
-      - 🇯🇵 JP 032 | ⬇️ 13MB/s
-      - 🇸🇬 新加坡SG 139
-      - US_3
-      - 🇭🇰 HK 133 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 71
-      - 🇩🇪 德国DE 475
-      - 🇯🇵 JP 040 | ⬇️ 1MB/s
-      - US_4
-      - 🇬🇧 英国GB 927
-      - 🇯🇵 JP 096 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 407
-      - 🇯🇵 JP 023 | ⬇️ 18MB/s
-      - 🇺🇸 美国US 325
-      - 🇯🇵 JP 024 | ⬇️ 20MB/s
-      - 🇯🇵 JP 042 | ⬇️ 1MB/s
-      - 🇮🇹 意大利 1097
-      - 🇯🇵 JP 037 | ⬇️ 29MB/s
-      - 🇰🇷 韩国KR 632
-      - 🇸🇬 新加坡SG 134
-      - 🇯🇵 日本JP 105
-      - 🇸🇬 新加坡SG 107
-      - "[IPv6] 🇮🇹 意大利 1085"
-      - 🇰🇷 韩国KR 640
-      - 🇮🇹 意大利 1065
-      - 🇬🇧 英国GB 604
-      - 🇺🇸 美国US 1013
-      - 🇯🇵 日本JP 100
-      - 美国 🇺🇸  US 167
-      - 🇺🇸 美国US 425
-      - 🇰🇷 韩国KR 597
-      - 🇯🇵 日本JP 92
-      - 🇰🇷 韩国KR 523
-      - 德国 🇩🇪  DE 78
-      - 🇩🇪 德国DE 748
-      - 🇸🇬 新加坡SG 184
-      - 🇰🇷 韩国KR 294
-      - 🇸🇬 新加坡SG 140
-      - 🇯🇵 JP 226 | ⬇️ 4MB/s
-      - 🇩🇪 德国DE 818
-      - 🇩🇪 德国DE 999
-      - 🇺🇸 美国 1801
-      - 瑞典 🇸🇪  SE 80
-      - 🇫🇷 法国 01
-      - 🇳🇱 荷兰NL 867
-      - 🇳🇱 荷兰NL 762
-      - 🇳🇱 荷兰NL 804
-      - 🇰🇷 韩国 1061
-      - 奥地利 🇦🇹  AT 341
-      - 🇨🇭 瑞士 1709
-      - 🇺🇸 美国US 388
-      - 🏴‍☠️ 其他 1784
-      - 🇬🇧 英国GB 634
-      - 🇬🇧 英国 02
-      - 🇨🇭 瑞士 1707
-      - 🇳🇱 荷兰NL 780
-      - 🇬🇧 英国GB 602
-      - 德国 🇩🇪  DE 82
-      - HK
-      - 🇬🇧 英国GB 605
-      - 🇬🇧 英国GB 613
-      - 美国 🇺🇸  US 280
-      - US_5
-      - 🇳🇱 荷兰 03
-      - 瑞典 🇸🇪  SE 133
-      - 德国 🇩🇪  DE 267
-      - 🇳🇱 荷兰NL 610
-      - 🇳🇱 荷兰NL 626
-      - 🇫🇷 法国FR 716
-      - 🇳🇱 荷兰NL 722
-      - 🇰🇷 韩国KR 677
-      - 奥地利 🇦🇹  AT 224
-      - 🇭🇰 香港HK 979
-      - 🇯🇵 JP 312 | ⬇️ 6MB/s
-      - 奥地利 🇦🇹  AT 233
-      - 🇭🇰HK_1|261KB/s
-      - 🇩🇪 DE 410 | ⬇️ 1MB/s
-      - 🇩🇪 德国DE 803
-      - 🇩🇪 德国DE 828
-      - 阿拉伯联合酋长国 🇦🇪  AE 106
-      - 🇭🇰 HK 184 | ⬇️ 11MB/s
-      - 🇻🇳 越南 06
-      - 🇳🇱 荷兰NL 566
-      - 🇭🇰 HK 065 | ⬇️ 4MB/s
-      - 🇳🇱 荷兰NL 781
-      - 🇳🇱 荷兰NL 625
-      - 🇭🇰 香港 1081
-      - 🇩🇪 德国DE 779
-      - 🇸🇪 瑞典SE 703
-      - 🇳🇱 荷兰NL 559
-      - 🇩🇪 德国 03
-      - 🇩🇪 德国DE 567
-      - 🇩🇪 德国 09
-      - 🇳🇱 荷兰NL 642
-      - 🇳🇱NL_14|23KB/s
-      - 🇳🇱 荷兰NL 652
-      - 🇺🇸US_31|58KB/s
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US 210
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇺🇸US_23|1.9MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸 美国US-211
+      - KR
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇬🇧 英国 V2CROSS.COM_3
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM_1
       - 🇳🇱NL_11|19KB/s
-      - 🇳🇱NL_12|31KB/s
-      - 🇭🇰 香港HK 998
-      - 🇯🇵 JP 036 | ⬇️ 1MB/s
-      - 🇯🇵 日本JP 233
-      - HK_1
-      - 🇭🇰 HK 170 | ⬇️ 2MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
-      - 🇯🇵 JP 354 | ⬇️ 1MB/s
-      - 德国_1
-      - 🇰🇷 韩国 05
-      - 🇯🇵 JP 397 | ⬇️ 4MB/s
-      - 🇰🇷 韩国KR 656
+      - 🇺🇸US_31|58KB/s
+      - US SS-29 | free-nodes
+      - GB SS-30 | free-nodes
+      - 香港+电讯盈科有限公司
+      - 未知 SS-25 | free-nodes
+      - TW SS-07 | free-nodes
+      - 🇭🇰HK_1|261KB/s
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - DE VLESS-103 | free-nodes
+      - DE VLESS-98 | free-nodes
+      - DE VLESS-88 | free-nodes
+      - US
+      - GB VLESS-136 | free-nodes
+      - GB VLESS-167 | free-nodes
+      - GB VLESS-132 | free-nodes
+      - US_1
+      - US VLESS-73 | free-nodes
+      - VLESS-xhttp-Reality-Vision
+      - JP VLESS-90 | free-nodes
+      - US VLESS-159 | free-nodes
+      - 未知 VLESS-146 | free-nodes
+      - 未知 VLESS-156 | free-nodes
+      - 未知 VLESS-151 | free-nodes
+      - 未知 VLESS-138 | free-nodes
+      - 未知 VLESS-157 | free-nodes
+      - 00-Trojan-jp-AI
+      - JP TROJAN-45 | free-nodes
+      - 🇻🇳 越南VN-441
+      - 🇬🇧 英国-1416
+      - 🇩🇪 德国DE-154
+      - 🇩🇪 德国DE-197
+      - hysteria2-warp
+      - 🇸🇬 ⚡️️NZ新西兰
+      - 🇳🇬 ⚡️️NG尼日利亚
+      - 🇰🇷 ⚡️KR韩国
+      - 🇱🇻 ⚡️️LV拉脱维亚  | Disney
+      - 🇰🇿 ⚡️️KZ哈萨克斯坦
+      - 🇦🇿 ⚡️️AZ阿塞拜疆
+      - 🇦🇱 ⚡️️AL阿尔巴尼亚  | Disney
+      - 🇵🇹 ⚡️️PT葡萄牙  | Disney
+      - 🇮🇪 ⚡️️IE爱尔兰  | Disney
+      - 🇫🇮 ️⚡️FI芬兰
+      - 🇸🇰 ⚡️️SK斯洛伐克  | Disney
+      - 🇮🇸 ⚡️️IS冰岛
+      - 🇺🇸 ⚡️️AM亚美尼亚 | Disney
+      - 🇨🇭 ⚡️️CH瑞士  | Disney
+      - 🇳🇴 ⚡️️NO挪威
+      - 🇺🇦 ⚡️️UA乌克兰
+      - 🇧🇬 ⚡️️BG保加利亚
+      - 🇸🇮 ⚡️SI斯洛文尼亚
+      - 🇵🇱 ⚡️️PL波兰  | Disney
+      - 🇨🇿 ⚡️️CZ捷克
+      - 🇬🇷 ⚡️️GR希腊
+      - 🇪🇸 ⚡️️ES西班牙
+      - 🇬🇧 ⚡️UK英国
+      - 🇦🇹 ⚡️️AT奥地利  | Disney
+      - 🇺🇸 ⚡️US美国 - 01
+      - 🇺🇸 ⚡️US美国 - 02
+      - 🇺🇸 ⚡️US美国 - 05
+      - 🇧🇪 ⚡️️BE比利时  | Disney
+      - 🇺🇸 ️⚡️US美国 - 03
+      - 🇩🇪 ⚡️️DE德国  | Disney
+      - 🇮🇹 ⚡️️IT意大利
+      - 🇺🇸 ⚡️US美国 - 04
+      - 🇮🇳 ⚡️IN印度
+      - 🇻🇳 ⚡️VN越南
+      - 🇲🇾 ⚡️️MY马来西亚
+      - 🇯🇵 ⚡️️JP日本 - 04
+      - 🇯🇵 ⚡️JP日本 - 02
+      - 🇹🇼 ⚡️TW台湾 - 03
+      - 🇯🇵 ⚡️JP日本 - 01
+      - 🇯🇵 ⚡️JP日本 - 03
+      - 🇸🇬 ⚡️SG新加坡 - 02 | Disney
+      - 🇸🇬 ⚡️SG新加坡 - 03
+      - 🇹🇼 ️⚡️TW台湾 - 02
+      - 🇭🇰 ⚡️️HK香港 - 03 | Disney
+      - 🇭🇰 ⚡️HK香港 - 11
+      - 🇭🇰 ⚡️HK香港 - 07
+      - 🇭🇰 ⚡️️HK香港 - 05 | Disney
+      - 🇭🇰 ⚡️HK香港 - 10
+      - 🇭🇰 ⚡️HK香港 - 12
+      - 🇭🇰 ⚡️️HK香港 - 01  | Disney
+      - 🇭🇰 ⚡️️HK香港 - 06 | Disney
+      - 🇭🇰 ⚡️HK香港 - 08
+      - 🇭🇰 ⚡️️HK香港 - 04 | Disney
+      - 🇭🇰 ⚡️️HK香港 - 02 | Disney
+      - 🇭🇰 ⚡️HK香港 - 09
 rule-providers:
   LocalAreaNetwork:
     type: http
