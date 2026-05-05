@@ -17,173 +17,34 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
-  - name: KR
-    type: vmess
-    server: kr02.a0a.xyz
-    port: 80
-    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /cctv13.m3u8
-      headers:
-        Host: kr02.a0a.xyz
-    udp: true
-  - name: US SS-29 | free-nodes
+  - name: TW SS-04 | free-nodes
     type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
+    server: r3mrcg0011499tl.cybervena.com
+    port: 50099
     cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
     udp: true
-  - name: 🇺🇸US_31|58KB/s
-    type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
-    udp: true
-  - name: 🇳🇱NL_11|19KB/s
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: wwzVn2ZnHfqYa6l8EWh3eY
-    udp: true
-  - name: 🇻🇳 越南VN-441
-    type: hysteria2
-    server: vpn-vn-001.fastervpn.world
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-vn-001.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: 未知 SS-25 | free-nodes
-    type: ss
-    server: 20.87.107.99
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: akMKO9KXowxFcx5A
-    udp: true
-  - name: 🇭🇰HK_1|261KB/s
-    type: vless
-    server: 216.57.105.74
-    port: 443
-    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-      short-id: "11e2"
-    udp: true
-  - name: US
-    type: vless
-    server: pl74.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    servername: pl74.mechvpn.online
-    tls: true
-    flow: xtls-rprx-vision
-    udp: true
-  - name: 🇺🇸US_8|2.1MB/s
-    type: vless
-    server: 150.241.103.74
-    port: 443
-    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-    servername: st-2.globalcache.onnstreaming.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
-      short-id: aa69f619e4414362
-    udp: true
-  - name: hysteria2-warp
-    type: hysteria2
-    server: 83.243.86.103
-    port: 38563
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇩🇪 德国DE-197
-    type: hysteria2
-    server: 178.18.147.66
-    port: 29900
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇫🇷FR_2|1.1MB/s
-    type: hysteria2
-    server: 163.172.113.118
-    port: 40022
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: DE VLESS-103 | free-nodes
-    type: vless
-    server: finl9.keepsecured.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    servername: finl9.keepsecured.net
-    tls: true
-    client-fingerprint: chrome
-    udp: true
-  - name: 🇩🇪DE_2|2.2MB/s
-    type: hysteria2
-    server: 83.243.86.103
-    port: 12855
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸US_16|2.1MB/s
-    type: hysteria2
-    server: vpn-us-003.fastervpn.world
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-us-003.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: 🇳🇱NL_4|1.5MB/s
-    type: ss
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    udp: true
-  - name: 🇫🇷FR_1|1.3MB/s
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41283
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 00-Trojan-jp-AI
+  - name: 🇯🇵JP_8|1.7MB/s
     type: trojan
-    server: jp.111000.cc.cd
-    port: 443
-    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    sni: sni.111000.dynv6.net
-    alpn:
-      - http/1.1
+    server: jp2-8sb.6121999.dpdns.org
+    port: 24534
+    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
+    sni: jp2-8sb.6121999.dpdns.org
     skip-cert-verify: false
     tls: true
-    ws-opts:
-      path: /?ed=2560&proxyip=ip.111000.de5.net:443
-      headers:
-        Host: sni.111000.dynv6.net
     udp: true
-  - name: 🇺🇸_US_美国 · proxy_check
+  - name: JP TROJAN-49 | free-nodes
+    type: trojan
+    server: jp2-8sb.6121999.dpdns.org
+    port: 24534
+    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
+    sni: jp2-8sb.6121999.dpdns.org
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -191,19 +52,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇺🇸US_17|1.0MB/s
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
     type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸 US 295 | ⬇️ 1MB/s
-    type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -221,118 +72,6 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇺🇸 美国US-218
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: VLESS-xhttp-Reality-Vision
-    type: vless
-    server: 178.18.147.163
-    port: 15530
-    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-    network: xhttp
-    servername: www.microsoft.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-      short-id: aa45df0f
-    udp: true
-    xhttp-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸 美国 1406
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸 美国US 209
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸US_29|1.5MB/s
-    type: ss
-    server: 173.244.56.9
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-    udp: true
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇬🇧 英国 V2CROSS.COM
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇩🇪 德国 04
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸US_2|6.9MB/s
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸_US_美国 · proxy_check_1
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
   - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
     type: vmess
     server: 82.198.246.37
@@ -343,27 +82,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇫🇷FR_3|1.5MB/s
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41211
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸US_9|10.3MB/s
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
   - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -371,9 +92,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇺🇸US_3|4.4MB/s
+  - name: 🇺🇸US_1|5.8MB/s
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -381,9 +102,29 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇺🇸 US 329 | ⬇️ 5MB/s
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 英国 V2CROSS.COM
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+    type: vmess
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -411,29 +152,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 英国 V2CROSS.COM
+  - name: 🇺🇸US_3|4.4MB/s
     type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇬🇧 英国 V2CROSS.COM_1
-    type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -451,9 +172,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 德国
+  - name: 🇺🇸US_5|1.2MB/s
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -461,9 +182,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇺🇸 美国 1836
+  - name: 🇺🇸 美国 1406
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -481,9 +202,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇺🇸US_1|5.8MB/s
+  - name: 🇺🇸 US 295 | ⬇️ 1MB/s
     type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -491,7 +212,131 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇬🇧 英国 V2CROSS.COM_2
+  - name: 🇺🇸 美国US-218
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_2|6.9MB/s
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_18|1.3MB/s
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 未知 SS-26 | free-nodes
+    type: ss
+    server: 82.38.31.35
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+  - name: RU SS-33 | free-nodes
+    type: ss
+    server: 195.58.49.26
+    port: 50123
+    cipher: aes-256-gcm
+    password: 3150466568eda87b
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_check
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇬🇧 英国 V2CROSS.COM
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_check_1
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_1|7.5MB/s
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_17|1.0MB/s
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇩🇪 德国 04
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 US 329 | ⬇️ 5MB/s
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_check_2
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国 1836
     type: vmess
     server: 82.198.246.233
     port: 180
@@ -511,57 +356,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: JP TROJAN-45 | free-nodes
-    type: trojan
-    server: jp2-8sb.6121999.dpdns.org
-    port: 24534
-    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
-    sni: jp2-8sb.6121999.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    udp: true
-  - name: 🇯🇵JP_1|1.6MB/s
-    type: trojan
-    server: jp2-8sb.6121999.dpdns.org
-    port: 24534
-    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
-    sni: jp2-8sb.6121999.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    udp: true
-  - name: 🇯🇵JP_8|1.7MB/s
-    type: trojan
-    server: jp2-8sb.6121999.dpdns.org
-    port: 24534
-    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
-    sni: jp2-8sb.6121999.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    udp: true
-  - name: 🇹🇼 TW 020 | ⬇️ 12MB/s
-    type: vless
-    server: 125.227.219.98
-    port: 6235
-    uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
-    network: ws
-    servername: baidu.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /xxxxhttp
-      headers:
-        Host: baidu.com
-    udp: true
-  - name: 未知 SS-27 | free-nodes
-    type: ss
-    server: 82.38.31.62
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    udp: true
-  - name: 🇺🇸_US_美国 · proxy_check_2
+  - name: 🇺🇸US_9|10.3MB/s
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -569,18 +366,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: JP TROJAN-42 | free-nodes
-    type: trojan
-    server: jp2-8sb.6121999.dpdns.org
-    port: 24534
-    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
-    sni: jp2-8sb.6121999.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    udp: true
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+  - name: 🇬🇧 英国 V2CROSS.COM_1
     type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -598,61 +386,21 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: TR VLESS-65 | free-nodes
-    type: vless
-    server: 2.56.127.207
-    port: 443
-    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-    servername: store.steampowered.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: XkRQUOLTBAiIXB1MK9oJwlfn-9XnH53ykk5UE6rDyFc
-      short-id: d4356669ea880400
+  - name: 🇫🇷FR_1|1.1MB/s
+    type: hysteria2
+    server: 163.172.113.118
+    port: 41273
+    password: dongtaiwang.com
+    sni: www.microsoft.com
+    skip-cert-verify: true
     udp: true
-  - name: HK VLESS-154 | free-nodes
-    type: vless
-    server: s306.okgg.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031ue788s306.okgg.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    udp: true
-  - name: 未知 VLESS-52 | free-nodes
-    type: vless
-    server: 193.23.200.15
-    port: 443
-    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-    servername: pl2-gws4.onnstreaming.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-      short-id: d1f93724859d75ac
-    udp: true
-  - name: 未知 VLESS-149 | free-nodes
-    type: vless
-    server: s326.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u1941s326.ccgfw.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    udp: true
-  - name: US VLESS-173 | free-nodes
-    type: vless
-    server: s123.ccgfw.online
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u71bfs123.ccgfw.online
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
+  - name: 🇩🇪DE_2|2.2MB/s
+    type: hysteria2
+    server: 83.243.86.103
+    port: 12855
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: www.microsoft.com
+    skip-cert-verify: true
     udp: true
   - name: US VLESS-71 | free-nodes
     type: vless
@@ -667,145 +415,296 @@ proxies:
       public-key: -n5iY1LH6WNzxc6_sQg_phf04553mzBExCqQzRvoA3U
       short-id: 41427aa565e28984
     udp: true
-  - name: 未知 VLESS-51 | free-nodes
-    type: vless
-    server: 150.241.103.74
+  - name: 德国
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇬🇧 英国 V2CROSS.COM_2
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 209
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇫🇷FR_3|1.5MB/s
+    type: hysteria2
+    server: 163.172.113.118
+    port: 41211
+    password: dongtaiwang.com
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: 00-Trojan-jp-AI
+    type: trojan
+    server: jp.111000.cc.cd
     port: 443
-    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-    servername: st-2.globalcache.onnstreaming.ru
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    sni: sni.111000.dynv6.net
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /?ed=2560&proxyip=ip.111000.de5.net:443
+      headers:
+        Host: sni.111000.dynv6.net
+    udp: true
+  - name: 🇫🇷FR_1|1.3MB/s
+    type: hysteria2
+    server: 163.172.113.118
+    port: 41283
+    password: dongtaiwang.com
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: US SS-17 | free-nodes
+    type: ss
+    server: 108.181.57.93
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: RSo52SbxW40r
+    udp: true
+  - name: 🇫🇷FR_2|1.1MB/s
+    type: hysteria2
+    server: 163.172.113.118
+    port: 40022
+    password: dongtaiwang.com
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: HK VLESS-149 | free-nodes
+    type: vless
+    server: s306.okgg.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: e788s306.okgg.top
     tls: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
-      short-id: aa69f619e4414362
+    client-fingerprint: random
     udp: true
-  - name: 未知 VLESS-159 | free-nodes
+  - name: 🇩🇪 德国DE-197
+    type: hysteria2
+    server: 178.18.147.66
+    port: 29900
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: 未知 VLESS-158 | free-nodes
     type: vless
     server: s226.okgg.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031ua6bas226.okgg.top
+    servername: a6bas226.okgg.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
     udp: true
-  - name: 未知 VLESS-167 | free-nodes
+  - name: 未知 VLESS-160 | free-nodes
     type: vless
     server: s677.ccgfw.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u8594s677.ccgfw.top
+    servername: 8594s677.ccgfw.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
+    udp: true
+  - name: hysteria2-warp
+    type: hysteria2
+    server: 83.243.86.103
+    port: 38563
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: 未知 VLESS-155 | free-nodes
+    type: vless
+    server: s226.okgg.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: a6bas226.okgg.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 🇻🇳 越南VN-441
+    type: hysteria2
+    server: vpn-vn-001.fastervpn.world
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-vn-001.fastervpn.world
+    skip-cert-verify: true
+    udp: true
+  - name: VLESS-xhttp-Reality-Vision
+    type: vless
+    server: 178.18.147.163
+    port: 15530
+    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
+    network: xhttp
+    servername: www.microsoft.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+      short-id: aa45df0f
+    udp: true
+    xhttp-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+  - name: 🇳🇱NL_18|1.3MB/s
+    type: vless
+    server: 62.50.146.35
+    port: 9443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    network: grpc
+    servername: raw.githubusercontent.com
+    tls: true
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: www.apple.com:443
+    reality-opts:
+      public-key: GdCtxJAti3DA8oTu9KkFHjCz1yRGGZB_4NZIBuQxc28
+      short-id: abc5168218c8749c
+    udp: true
+  - name: US
+    type: vless
+    server: pl74.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    servername: pl74.mechvpn.online
+    tls: true
+    flow: xtls-rprx-vision
+    udp: true
+  - name: 未知 VLESS-148 | free-nodes
+    type: vless
+    server: s326.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: 1941s326.ccgfw.top
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+    udp: true
+  - name: 🇳🇱NL_35|1.3MB/s
+    type: vless
+    server: 146.103.114.12
+    port: 59001
+    uuid: 4de9bd4f-8d80-4637-8bdb-9e987c8a79bc
+    servername: www.m.vk.ru
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: alN88a4LJdVTW2JRU1jE-LYDAG2LhLEZoMSZRaCWWR4
+      short-id: "9629"
     udp: true
   - name: 未知 VLESS-126 | free-nodes
     type: vless
     server: s678.ccgfw.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031ub838s678.ccgfw.top
+    servername: b838s678.ccgfw.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
     udp: true
-  - name: DE VLESS-156 | free-nodes
+  - name: 未知 VLESS-147 | free-nodes
     type: vless
-    server: s865.ccgfw.top
+    server: s326.ccgfw.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u75e9s865.ccgfw.top
+    servername: 1941s326.ccgfw.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
     udp: true
-  - name: 未知 SS-23 | free-nodes
-    type: ss
-    server: 20.87.107.99
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: akMKO9KXowxFcx5A
-    udp: true
-  - name: DE VLESS-169 | free-nodes
+  - name: 未知 VLESS-128 | free-nodes
     type: vless
-    server: s863.ccgfw.top
+    server: s678.ccgfw.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031ubd67s863.ccgfw.top
+    servername: b838s678.ccgfw.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
     udp: true
-  - name: DE VLESS-134 | free-nodes
+  - name: 未知 VLESS-163 | free-nodes
     type: vless
-    server: s864.ccgfw.top
+    server: s677.ccgfw.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u03c8s864.ccgfw.top
+    servername: 8594s677.ccgfw.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
     udp: true
-  - name: GB VLESS-133 | free-nodes
-    type: vless
-    server: s643.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u7190s643.ccgfw.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    udp: true
-  - name: GB VLESS-168 | free-nodes
-    type: vless
-    server: s642.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u4c78s642.ccgfw.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    udp: true
-  - name: GB VLESS-127 | free-nodes
-    type: vless
-    server: s644.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031ud3c8s644.ccgfw.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    udp: true
-  - name: DE VLESS-150 | free-nodes
-    type: vless
-    server: s121.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u0188s121.ccgfw.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    udp: true
-  - name: HK VLESS-132 | free-nodes
+  - name: HK VLESS-130 | free-nodes
     type: vless
     server: ipv6s315.okgg.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u0c14ipv6s315.okgg.top
+    servername: 0c14ipv6s315.okgg.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
     udp: true
-  - name: HK VLESS-142 | free-nodes
+  - name: HK VLESS-143 | free-nodes
     type: vless
     server: ipv6s316.okgg.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u985aipv6s316.okgg.top
+    servername: 985aipv6s316.okgg.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
+    udp: true
+  - name: US VMESS-159 | free-nodes
+    type: vmess
+    server: s842.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: s842.ccgfw.top
+    network: ws
+    ws-opts:
+      path: /ssp-ws
+      headers:
+        Host: s842.ccgfw.top
+    udp: true
+  - name: US SS-23 | free-nodes
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+    udp: true
+  - name: US SS-29 | free-nodes
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
     udp: true
   - name: US SS-25 | free-nodes
     type: ss
@@ -814,15 +713,98 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
     udp: true
-  - name: US VLESS-135 | free-nodes
+  - name: 🇺🇸US_31|58KB/s
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+    udp: true
+  - name: TR TROJAN-48 | free-nodes
+    type: trojan
+    server: hl-freedom-1.undef.network
+    port: 443
+    password: JaFKnqNcvnBT63t3rquidGsln
+    sni: HL-FREEDOM-1.UNDEF.NETWORK
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: 🇹🇼 TW 020 | ⬇️ 12MB/s
     type: vless
-    server: s136.ccgfw.online
+    server: 125.227.219.98
+    port: 6235
+    uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
+    network: ws
+    servername: baidu.com
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /xxxxhttp
+      headers:
+        Host: baidu.com
+    udp: true
+  - name: US VMESS-162 | free-nodes
+    type: vmess
+    server: s842.ccgfw.top
     port: 443
     uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    servername: u712031u3776s136.ccgfw.online
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: s842.ccgfw.top
+    network: ws
+    ws-opts:
+      path: /ssp-ws
+      headers:
+        Host: s842.ccgfw.top
+    udp: true
+  - name: JP TROJAN-44 | free-nodes
+    type: trojan
+    server: jp2-8sb.6121999.dpdns.org
+    port: 24534
+    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
+    sni: jp2-8sb.6121999.dpdns.org
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: 🇺🇸US_11|2.1MB/s
+    type: hysteria2
+    server: vpn-us-002.fastervpn.world
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-us-002.fastervpn.world
+    skip-cert-verify: true
+    udp: true
+  - name: 未知 SS-30 | free-nodes
+    type: ss
+    server: 82.38.31.89
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+  - name: HK VLESS-158 | free-nodes
+    type: vless
+    server: s298.okgg.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    servername: 3556s298.okgg.top
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: random
+    udp: true
+  - name: 🇳🇱NL_29|2.1MB/s
+    type: vless
+    server: 83.147.255.75
+    port: 443
+    uuid: 37253a6a-2a9b-42bb-992c-b5f1b1ef1791
+    servername: vruaz.mostserv.xyz
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+      short-id: 226509f017e4c36d
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
@@ -830,173 +812,169 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1006,349 +984,341 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1371,88 +1341,86 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR
-      - US SS-29 | free-nodes
-      - 🇺🇸US_31|58KB/s
-      - 🇳🇱NL_11|19KB/s
-      - 🇻🇳 越南VN-441
-      - 未知 SS-25 | free-nodes
-      - 🇭🇰HK_1|261KB/s
-      - US
-      - 🇺🇸US_8|2.1MB/s
-      - hysteria2-warp
-      - 🇩🇪 德国DE-197
-      - 🇫🇷FR_2|1.1MB/s
-      - DE VLESS-103 | free-nodes
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇺🇸US_16|2.1MB/s
-      - 🇳🇱NL_4|1.5MB/s
-      - 🇫🇷FR_1|1.3MB/s
-      - 00-Trojan-jp-AI
-      - 🇺🇸_US_美国 · proxy_check
-      - 🇺🇸US_17|1.0MB/s
-      - 🇺🇸 US 295 | ⬇️ 1MB/s
-      - 🇺🇸 美国US 210
-      - 🇺🇸 美国US-218
-      - VLESS-xhttp-Reality-Vision
+      - TW SS-04 | free-nodes
+      - 🇯🇵JP_8|1.7MB/s
+      - JP TROJAN-49 | free-nodes
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇺🇸 美国 1406
-      - 🇺🇸 美国US 209
-      - 🇺🇸US_29|1.5MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸US_2|6.9MB/s
-      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸 美国US 210
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
-      - 🇫🇷FR_3|1.5MB/s
-      - 🇺🇸US_9|10.3MB/s
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
-      - 🇺🇸US_3|4.4MB/s
-      - 🇺🇸 US 329 | ⬇️ 5MB/s
+      - 🇺🇸US_1|5.8MB/s
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
+      - 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
       - 🇺🇸 美国US 215
       - 🇺🇸 美国US 224
-      - 英国 V2CROSS.COM
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_4
-      - 🇬🇧 英国 V2CROSS.COM_1
+      - 🇺🇸US_3|4.4MB/s
       - 🇺🇸US_1|5.7MB/s
-      - 德国
-      - 🇺🇸 美国 1836
+      - 🇺🇸US_5|1.2MB/s
+      - 🇺🇸 美国 1406
       - 🇺🇸US_23|1.9MB/s
-      - 🇺🇸US_1|5.8MB/s
-      - 🇬🇧 英国 V2CROSS.COM_2
-      - 🇺🇸 美国US-211
-      - JP TROJAN-45 | free-nodes
-      - 🇯🇵JP_1|1.6MB/s
-      - 🇯🇵JP_8|1.7MB/s
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 未知 SS-27 | free-nodes
+      - 🇺🇸 US 295 | ⬇️ 1MB/s
+      - 🇺🇸 美国US-218
+      - 🇺🇸US_2|6.9MB/s
+      - 🇺🇸US_18|1.3MB/s
+      - 未知 SS-26 | free-nodes
+      - RU SS-33 | free-nodes
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇸_US_美国 · proxy_check_1
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸US_17|1.0MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸 US 329 | ⬇️ 5MB/s
       - 🇺🇸_US_美国 · proxy_check_2
-      - JP TROJAN-42 | free-nodes
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_5
+      - 🇺🇸 美国 1836
+      - 🇺🇸 美国US-211
+      - 🇺🇸US_9|10.3MB/s
+      - 🇬🇧 英国 V2CROSS.COM_1
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_6
-      - TR VLESS-65 | free-nodes
-      - HK VLESS-154 | free-nodes
-      - 未知 VLESS-52 | free-nodes
-      - 未知 VLESS-149 | free-nodes
-      - US VLESS-173 | free-nodes
+      - 🇫🇷FR_1|1.1MB/s
+      - 🇩🇪DE_2|2.2MB/s
       - US VLESS-71 | free-nodes
-      - 未知 VLESS-51 | free-nodes
-      - 未知 VLESS-159 | free-nodes
-      - 未知 VLESS-167 | free-nodes
+      - 德国
+      - 🇬🇧 英国 V2CROSS.COM_2
+      - 🇺🇸 美国US 209
+      - 🇫🇷FR_3|1.5MB/s
+      - 00-Trojan-jp-AI
+      - 🇫🇷FR_1|1.3MB/s
+      - US SS-17 | free-nodes
+      - 🇫🇷FR_2|1.1MB/s
+      - HK VLESS-149 | free-nodes
+      - 🇩🇪 德国DE-197
+      - 未知 VLESS-158 | free-nodes
+      - 未知 VLESS-160 | free-nodes
+      - hysteria2-warp
+      - 未知 VLESS-155 | free-nodes
+      - 🇻🇳 越南VN-441
+      - VLESS-xhttp-Reality-Vision
+      - 🇳🇱NL_18|1.3MB/s
+      - US
+      - 未知 VLESS-148 | free-nodes
+      - 🇳🇱NL_35|1.3MB/s
       - 未知 VLESS-126 | free-nodes
-      - DE VLESS-156 | free-nodes
-      - 未知 SS-23 | free-nodes
-      - DE VLESS-169 | free-nodes
-      - DE VLESS-134 | free-nodes
-      - GB VLESS-133 | free-nodes
-      - GB VLESS-168 | free-nodes
-      - GB VLESS-127 | free-nodes
-      - DE VLESS-150 | free-nodes
-      - HK VLESS-132 | free-nodes
-      - HK VLESS-142 | free-nodes
+      - 未知 VLESS-147 | free-nodes
+      - 未知 VLESS-128 | free-nodes
+      - 未知 VLESS-163 | free-nodes
+      - HK VLESS-130 | free-nodes
+      - HK VLESS-143 | free-nodes
+      - US VMESS-159 | free-nodes
+      - US SS-23 | free-nodes
+      - US SS-29 | free-nodes
       - US SS-25 | free-nodes
-      - US VLESS-135 | free-nodes
+      - 🇺🇸US_31|58KB/s
+      - TR TROJAN-48 | free-nodes
+      - 🇹🇼 TW 020 | ⬇️ 12MB/s
+      - US VMESS-162 | free-nodes
+      - JP TROJAN-44 | free-nodes
+      - 🇺🇸US_11|2.1MB/s
+      - 未知 SS-30 | free-nodes
+      - HK VLESS-158 | free-nodes
+      - 🇳🇱NL_29|2.1MB/s
 rule-providers:
   LocalAreaNetwork:
     type: http
