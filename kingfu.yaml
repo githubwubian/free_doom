@@ -17,7 +17,7 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
-  - name: 🇯🇵日本JP纯净-97
+  - name: 🇯🇵 日本-548
     type: vmess
     server: 103.127.243.49
     port: 53224
@@ -27,19 +27,15 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇭🇰香港HK纯净-420
+  - name: 🇸🇬新加坡SG-649
     type: vless
-    server: rhciuib.synccut.de
+    server: sg1.ap221.com
     port: 443
-    uuid: cf5a8e10-758c-4564-87a4-a2eeecbd5ed4
-    network: ws
-    servername: rhciuib.synccut.de
+    uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+    servername: sg.ap221.com
     tls: true
-    client-fingerprint: edge
-    ws-opts:
-      path: /video_clip
-      headers:
-        Host: rhciuib.synccut.de
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
     udp: true
   - name: 🇰🇷 KR_2785 | ⬇️ 29MB/s
     type: ss
@@ -53,6 +49,36 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
+  - name: 🇰🇷韩国KR-870
+    type: vless
+    server: seoul1.ap221.com
+    port: 443
+    uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+    servername: seoul.ap221.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: 🇷🇺俄罗斯RU-880
+    type: vless
+    server: 178.72.181.41
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    servername: cluster-russia-1.firstvideocdn.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: 🇬🇧 英国-506
+    type: vless
+    server: london1.ap221.com
+    port: 443
+    uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+    servername: london.ap221.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
   - name: 🇸🇬 SG_275 | ⬇️ 40MB/s
     type: ss
     server: 168.138.165.174
@@ -65,200 +91,10 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇷🇺俄罗斯RU-871
-    type: vless
-    server: 178.72.182.35
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    servername: cl-ru-2.edgeflux.ru
-    tls: true
-    client-fingerprint: chrome
-    udp: true
-  - name: 🇷🇺俄罗斯RU-823
-    type: vless
-    server: 95.213.184.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    udp: true
-  - name: 英国 V2CROSS.COM
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸 美国US 224
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸美国US-220
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 德国
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇬🇧 英国 V2CROSS.COM
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇩🇪 德国 04
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸 美国US-218
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸美国US-178
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸美国US有风险-229
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
   - name: 🇰🇷 KR_2372 | ⬇️ 34MB/s
     type: ss
     server: 183.103.4.162
     port: 32677
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2336 | ⬇️ 33MB/s
-    type: ss
-    server: 211.194.210.183
-    port: 30047
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_284 | ⬇️ 37MB/s
-    type: ss
-    server: 210.99.119.3
-    port: 30019
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2863 | ⬇️ 10MB/s
-    type: ss
-    server: 115.22.181.7
-    port: 10030
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇺🇸US_1|7.5MB/s
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇰🇷 KR_2141 | ⬇️ 44MB/s
-    type: ss
-    server: 121.182.16.235
-    port: 18246
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: US
-    type: ss
-    server: 121.139.161.31
-    port: 25105
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2884 | ⬇️ 22MB/s
-    type: ss
-    server: 169.211.176.84
-    port: 26257
     cipher: none
     password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
     plugin: v2ray-plugin
@@ -279,567 +115,10 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇰🇷 KR_2750 | ⬇️ 29MB/s
+  - name: 🇰🇷 KR_2681 | ⬇️ 37MB/s
     type: ss
-    server: 121.140.206.109
-    port: 11434
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇺🇸 美国US 210
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇰🇷 KR_2421 | ⬇️ 29MB/s
-    type: ss
-    server: 221.147.196.150
-    port: 18810
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2855 | ⬇️ 38MB/s
-    type: ss
-    server: 115.21.253.43
-    port: 35342
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2679 | ⬇️ 40MB/s
-    type: ss
-    server: 59.18.192.132
-    port: 20880
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2862 | ⬇️ 32MB/s
-    type: ss
-    server: 183.108.118.211
-    port: 10005
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2869 | ⬇️ 35MB/s
-    type: ss
-    server: 121.179.3.58
-    port: 35342
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇰🇷 KR_2792 | ⬇️ 34MB/s
-    type: ss
-    server: 221.167.233.79
-    port: 19888
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇺🇸 美国US 215
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇰🇷 KR_2589 | ⬇️ 20MB/s
-    type: ss
-    server: 59.24.62.82
-    port: 20002
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2385 | ⬇️ 13MB/s
-    type: ss
-    server: 220.122.42.198
-    port: 19071
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2742 | ⬇️ 49MB/s
-    type: ss
-    server: 221.148.219.205
-    port: 20201
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2352 | ⬇️ 28MB/s
-    type: ss
-    server: 121.158.3.191
-    port: 32677
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2898 | ⬇️ 42MB/s
-    type: ss
-    server: 220.77.18.195
-    port: 36814
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇫🇷法国FR-90
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41802
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇰🇷 KR_2260 | ⬇️ 28MB/s
-    type: ss
-    server: 175.201.34.127
-    port: 37215
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2504 | ⬇️ 14MB/s
-    type: ss
-    server: 222.106.183.207
-    port: 12300
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2729 | ⬇️ 29MB/s
-    type: ss
-    server: 59.31.102.62
-    port: 25565
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2623 | ⬇️ 47MB/s
-    type: ss
-    server: 59.18.192.132
-    port: 18000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2630 | ⬇️ 28MB/s
-    type: ss
-    server: 175.196.178.94
-    port: 11310
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇫🇷FR_2|1.1MB/s
-    type: hysteria2
-    server: 163.172.113.118
-    port: 40022
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇰🇷 KR_2562 | ⬇️ 29MB/s
-    type: ss
-    server: 121.180.225.222
-    port: 16000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2147 | ⬇️ 12MB/s
-    type: ss
-    server: 218.158.249.174
-    port: 10002
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2443 | ⬇️ 12MB/s
-    type: ss
-    server: 59.4.161.71
-    port: 38241
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇫🇷法国FR-80
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41984
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇬🇧 英国-1146
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇰🇷 KR_2218 | ⬇️ 32MB/s
-    type: ss
-    server: 218.158.249.174
-    port: 10000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇩🇪DE_2|2.2MB/s
-    type: hysteria2
-    server: 83.243.86.103
-    port: 12855
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇰🇷 KR_2513 | ⬇️ 35MB/s
-    type: ss
-    server: 119.200.244.99
-    port: 32770
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇬🇧 英国 V2CROSS.COM_1
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇬🇧 英国-960
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸美国US-205
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇵🇱波兰PL-807
-    type: vless
-    server: 144.31.5.23
-    port: 9443
-    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-    servername: yahoo.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-      short-id: 2344766a270a6298
-    udp: true
-  - name: 🇮🇳印度IN-568
-    type: vless
-    server: 2y4x8bb.synccut.de
-    port: 443
-    uuid: cf5a8e10-758c-4564-87a4-a2eeecbd5ed4
-    network: ws
-    servername: 2y4x8bb.synccut.de
-    tls: true
-    client-fingerprint: edge
-    ws-opts:
-      path: /in
-      headers:
-        Host: 2y4x8bb.synccut.de
-    udp: true
-  - name: 🇰🇷 KR_2875 | ⬇️ 12MB/s
-    type: ss
-    server: 121.178.202.91
-    port: 12380
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇫🇷法国FR-98
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41283
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸 美国-1157
-    type: anytls
-    server: be153432-teisg0-thvc3p-1o4kv.se.hyhuawei.com
-    port: 443
-    password: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-    sni: be153432-teisg0-thvc3p-1o4kv.se.hyhuawei.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇺🇸美国US有风险-206
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 00-Trojan-jp-AI
-    type: trojan
-    server: jp.111000.cc.cd
-    port: 443
-    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    sni: sni.111000.dynv6.net
-    alpn:
-      - http/1.1
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?ed=2560&proxyip=ip.111000.de5.net:443
-      headers:
-        Host: sni.111000.dynv6.net
-    udp: true
-  - name: 🇺🇸 美国-949
-    type: anytls
-    server: 64a8d477-teisg0-thiwul-1gcq2.los.hyhuawei.com
-    port: 443
-    password: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-    sni: 64a8d477-teisg0-thiwul-1gcq2.los.hyhuawei.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
-  - name: 🇰🇷 KR_2903 | ⬇️ 14MB/s
-    type: ss
-    server: 121.149.124.119
-    port: 37020
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇵🇱波兰PL-203
-    type: vless
-    server: 144.31.4.166
-    port: 2053
-    uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
-    network: grpc
-    servername: www.deepl.com
-    tls: true
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc
-    reality-opts:
-      public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-      short-id: 0123456789abcdef
-    udp: true
-  - name: 🇺🇸 US_299 | ⬇️ 25MB/s
-    type: ss
-    server: 172.66.42.200
-    port: 8443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇸🇬 SG_289 | ⬇️ 36MB/s
-    type: ss
-    server: 43.160.195.223
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2518 | ⬇️ 42MB/s
-    type: ss
-    server: 220.122.42.198
-    port: 10000
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_2889 | ⬇️ 27MB/s
-    type: ss
-    server: 218.155.104.63
-    port: 27017
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇹🇼 台湾-1188
-    type: vless
-    server: 125.227.219.98
-    port: 6235
-    uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
-    network: ws
-    servername: baidu.com
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /xxxxhttp
-      headers:
-        Host: baidu.com
-    udp: true
-  - name: 🇰🇷 KR_285 | ⬇️ 24MB/s
-    type: ss
-    server: 175.202.135.114
-    port: 12427
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇩🇪 DE_236 | ⬇️ 37MB/s
-    type: ss
-    server: 104.152.49.249
-    port: 443
+    server: 218.155.125.99
+    port: 10001
     cipher: none
     password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
     plugin: v2ray-plugin
@@ -860,10 +139,10 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇰🇷 KR_2751 | ⬇️ 45MB/s
+  - name: 🇰🇷 KR_2385 | ⬇️ 13MB/s
     type: ss
-    server: 211.223.9.175
-    port: 20005
+    server: 220.122.42.198
+    port: 19071
     cipher: none
     password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
     plugin: v2ray-plugin
@@ -871,6 +150,288 @@ proxies:
       mode: websocket
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2855 | ⬇️ 38MB/s
+    type: ss
+    server: 115.21.253.43
+    port: 35342
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2863 | ⬇️ 10MB/s
+    type: ss
+    server: 115.22.181.7
+    port: 10030
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2336 | ⬇️ 33MB/s
+    type: ss
+    server: 211.194.210.183
+    port: 30047
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2792 | ⬇️ 34MB/s
+    type: ss
+    server: 221.167.233.79
+    port: 19888
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2679 | ⬇️ 40MB/s
+    type: ss
+    server: 59.18.192.132
+    port: 20880
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2869 | ⬇️ 35MB/s
+    type: ss
+    server: 121.179.3.58
+    port: 35342
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2589 | ⬇️ 20MB/s
+    type: ss
+    server: 59.24.62.82
+    port: 20002
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2518 | ⬇️ 42MB/s
+    type: ss
+    server: 220.122.42.198
+    port: 10000
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2352 | ⬇️ 28MB/s
+    type: ss
+    server: 121.158.3.191
+    port: 32677
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2742 | ⬇️ 49MB/s
+    type: ss
+    server: 221.148.219.205
+    port: 20201
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2260 | ⬇️ 28MB/s
+    type: ss
+    server: 175.201.34.127
+    port: 37215
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2623 | ⬇️ 47MB/s
+    type: ss
+    server: 59.18.192.132
+    port: 18000
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2443 | ⬇️ 12MB/s
+    type: ss
+    server: 59.4.161.71
+    port: 38241
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2889 | ⬇️ 27MB/s
+    type: ss
+    server: 218.155.104.63
+    port: 27017
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2504 | ⬇️ 14MB/s
+    type: ss
+    server: 222.106.183.207
+    port: 12300
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2862 | ⬇️ 32MB/s
+    type: ss
+    server: 183.108.118.211
+    port: 10005
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2421 | ⬇️ 29MB/s
+    type: ss
+    server: 221.147.196.150
+    port: 18810
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2630 | ⬇️ 28MB/s
+    type: ss
+    server: 175.196.178.94
+    port: 11310
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2562 | ⬇️ 29MB/s
+    type: ss
+    server: 121.180.225.222
+    port: 16000
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2513 | ⬇️ 35MB/s
+    type: ss
+    server: 119.200.244.99
+    port: 32770
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2898 | ⬇️ 42MB/s
+    type: ss
+    server: 220.77.18.195
+    port: 36814
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2884 | ⬇️ 22MB/s
+    type: ss
+    server: 169.211.176.84
+    port: 26257
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: Misaka-Hysteria-6
+    type: hysteria2
+    server: 156.239.46.82
+    port: 56524
+    password: 9a94ba24
+    sni: www.bing.com
+    skip-cert-verify: true
     udp: true
   - name: 🇰🇷 KR_291 | ⬇️ 43MB/s
     type: ss
@@ -884,10 +445,60 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇰🇷 KR_2681 | ⬇️ 37MB/s
+  - name: 🇺🇸美国US-790
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国-277
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 224
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 德国
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇰🇷 KR_2875 | ⬇️ 12MB/s
     type: ss
-    server: 218.155.125.99
-    port: 10001
+    server: 121.178.202.91
+    port: 12380
     cipher: none
     password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
     plugin: v2ray-plugin
@@ -896,14 +507,324 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇫🇷法国FR-85
+  - name: 🇩🇪 德国 04
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸美国US-220
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇩🇪 德国 01
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国US 215
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸US_1|7.5MB/s
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸美国US-205
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: US
+    type: ss
+    server: 121.139.161.31
+    port: 25105
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2141 | ⬇️ 44MB/s
+    type: ss
+    server: 121.182.16.235
+    port: 18246
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷韩国KR-712
+    type: ss
+    server: 218.158.249.174
+    port: 10002
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇺🇸 美国-278
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇰🇷 KR_2750 | ⬇️ 29MB/s
+    type: ss
+    server: 121.140.206.109
+    port: 11434
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: "[IPv6] 🇸🇪瑞典SE-620"
+    type: vless
+    server: 95.85.246.16.speed-storage.ru
+    port: 573
+    uuid: 832f76f8-fca3-4efa-80be-870e123ad764
+    network: grpc
+    servername: 95.85.246.16.speed-storage.ru
+    tls: true
+    client-fingerprint: safari
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    udp: true
+  - name: 🇺🇸 US_299 | ⬇️ 25MB/s
+    type: ss
+    server: 172.66.42.200
+    port: 8443
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2729 | ⬇️ 29MB/s
+    type: ss
+    server: 59.31.102.62
+    port: 25565
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_2751 | ⬇️ 45MB/s
+    type: ss
+    server: 211.223.9.175
+    port: 20005
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 00-Trojan-jp-AI
+    type: trojan
+    server: jp.111000.cc.cd
+    port: 443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    sni: sni.111000.dynv6.net
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /?ed=2560&proxyip=ip.111000.de5.net:443
+      headers:
+        Host: sni.111000.dynv6.net
+    udp: true
+  - name: nhysc6zej-4
+    type: vless
+    server: 38.14.232.220
+    port: 26951
+    uuid: 19ca6e1e-f021-4d90-984e-9ee9d89b5115
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: FsGyaNhXeIRd78L6RQ-818iiGEEgEH9fAwJNrpkTHlE
+      short-id: 8efda308375a26
+    udp: true
+  - name: 🇸🇬 SG_289 | ⬇️ 36MB/s
+    type: ss
+    server: 43.160.195.223
+    port: 443
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+    type: vless
+    server: vltch.mostserv.xyz
+    port: 443
+    uuid: 37253a6a-2a9b-42bb-992c-b5f1b1ef1791
+    servername: vltch.mostserv.xyz
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+      short-id: 226509f017e4c36d
+    udp: true
+  - name: 🇰🇷 KR_2903 | ⬇️ 14MB/s
+    type: ss
+    server: 121.149.124.119
+    port: 37020
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇳🇱_NL_荷兰-8
+    type: vless
+    server: 141.11.197.127
+    port: 55269
+    uuid: 231e88bb-3a39-4f26-848e-908f83070283
+    servername: vk.ru
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: i1e3hqslC-n7XGp72HmDKU7ZuRk72pHbzujbNaYF-0s
+      short-id: 8f
+    udp: true
+  - name: 🇰🇷 KR_284 | ⬇️ 37MB/s
+    type: ss
+    server: 210.99.119.3
+    port: 30019
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇰🇷 KR_285 | ⬇️ 24MB/s
+    type: ss
+    server: 175.202.135.114
+    port: 12427
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇵🇱波兰PL-1391
+    type: vless
+    server: 144.31.5.23
+    port: 9443
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    servername: yahoo.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: 2344766a270a6298
+    udp: true
+  - name: GB
     type: hysteria2
-    server: 163.172.113.118
-    port: 41689
+    server: 157.254.223.43
+    port: 27921
     password: dongtaiwang.com
-    sni: www.microsoft.com
+    sni: www.bing.com
     skip-cert-verify: true
     udp: true
+  - name: 🇫🇮芬兰FI-1343
+    type: vless
+    server: 144.31.90.75
+    port: 9443
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    servername: yahoo.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: 2344766a270a6298
+    udp: true
+  - name: US_1
+    type: vless
+    server: 89.144.35.230
+    port: 54582
+    uuid: 5cfc52bc-e701-4160-89df-930a0c040576
+    encryption: mlkem768x25519plus.native.0rtt.0Rs8kQdBBMcc2SywqxkhzNVVzyIt_OZaYDNplvTPJKOwxAumLyogdAmy-lLJdlpIerxoMMZs2dlOCoI2H_igvKVg-1lc8Pge2EY-eki2tMPCzEhec7hFnVoDRydhygEXaAaebBpipjMntKVHqLJzwKomw5d-O0kAGaiF5nYPi-SU3NEBAXUPEWi9nMZeOEYPzzthXAcIVWw7yDlrGrOJQSVRyNmcUppT9hAwoNMPe2O5z0IN3rOdd7c3soKJ8oU6gwY38ynGbMEXGQqIBRWeYPYaptddWUZP28tus9xTwKQkIfeWWjsGOZcqGJMRRPevlIxRbfcAAJuCeTiz4yErDFsoMBYdzQl3BzIIcimWDEQIXZJCR6yyLSyJj8Fva7AgcAeg5BZs6_ZQdQFZfZpwjrwmp1kbdakCf-AzR9zBrOtR35IElzgBsgavbgZVY4B1THZ7DvFQVAq3hupm6_gaAaxg42qsleKyzPEs00VY-8DLRjauukNzTigjhfqom8liJnp8aALEnXhu7rdPIWuM91WEz4uTmbxBvARzuUAe7LceQtqiaHmebrp8N0mOKsSyh2PDVAmbWtjHCXJeDhhCMPUYXuiwUVICeUZV1TZxjmZ_xFFL8JZ8vAtewzs9AkiLXJaHNdIBbQRW5qx5BQfMM5vKjYhiXCxJugxu0zq57ksRxsF68oSW0jWbHXaF9EY91ABSZystAjitddC6QcGOUtqn6giKSVs2RXwEeNqZEsEELahYcPtM_PmTlXG-3pFfXalmcpC6bcVl14JLgkykbEtDy3qhBNaUa4osqDu4g8EgRVVuJlCFEcOW-qsQZedzkuhXa2UrUSgNBfVMYXCq16iiD6WKyVVww8CKj_WsPlyNrKIdu8RKENo_HZHN5gPEkgIGWvdpUVyJVbMHlGQ8wVKFDMgn3TyCmCx2_dXM0_eQDqjI3mXAonbAoFttwDhfbpcK4FjPWSkHZrMfAQU1QeodFxqBvBe8MMw1bLSu_mE8beORjEpmtWFr08O0zeUqBkKdOBwahQnB7mBx17JnjYSH0KZT2KF29SiBudHKz7mbThIxhglQH1hSfmSWs0k_d1uCR9Qvylsns9a3j4uwcvUFtZam7iVk2HxG-vMOihIYYomSALwNU0IN01Z3qddbW5uDdtIE0yA2fVVOxjMKVMeYybtarviaCdfNmvyJ4MrJUzoS82cp6TuOYgMZ8hosGMOH1xTMCZIMc9mf4UCRJqA3cRMH0PFj_ugQ62ohDld1dyZADdQx2igtUoYnjLKcIHVdTOp36TqaofugLKwF_aJSUmhi_Kheaju28kZskBaebUqT9VPBqcqYozdvXeeG8hUT6eiMAKSML4jHIJeYOpjOHhYNUEm9b4ATJOwstyQgQmE-P3teIQeYYRcimLpjCTczISEQJcUg68e3CgA8GCoLIaZVsmYKDMxbPJu7bWygU5bBH0Gc6sqf7uNy3kI0nEtAGNAUs6y9TFROQ2BgNeSMucRVNXZ1ePpJs8mx_xRn2ODAn0hImPlLiuOHniCPE_zni6TSyL8Typ11OvyVBIrIrAxWZwREOPs5lXV17t8
+    network: xhttp
+    servername: apple.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
+      short-id: 225e2cc8
+    udp: true
+    xhttp-opts:
+      path: /5cfc52bc-e701-4160-89df-930a0c040576-xh
   - name: 🇩🇪 DE_13 | ⬇️ 13MB/s
     type: ss
     server: 57.129.63.158
@@ -916,89 +837,159 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇩🇪 德国DE-197
-    type: hysteria2
-    server: 178.18.147.66
-    port: 29900
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸 美国-948
-    type: anytls
-    server: 3e32420e-teisg0-tnfe2z-1s4hc.se.hyhuawei.com
+  - name: 🇩🇪 DE_236 | ⬇️ 37MB/s
+    type: ss
+    server: 104.152.49.249
     port: 443
-    password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-    sni: 3e32420e-teisg0-tnfe2z-1s4hc.se.hyhuawei.com
-    skip-cert-verify: true
-    tls: true
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇵🇱波兰PL-291
+  - name: 🇳🇱 荷兰-290
     type: vless
-    server: 45.138.16.62
-    port: 30073
-    uuid: 8f59feef-aab9-4e0b-924c-2a31bb8f446f
+    server: 91.84.117.29
+    port: 443
+    uuid: a4037b4c-6a9d-528c-9efb-7d801cce8adb
     network: xhttp
-    tls: false
-    udp: true
-    xhttp-opts:
-      path: /secret
-      mode: stream-one
-  - name: 🇫🇷法国FR-88
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41581
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: VLESS-xhttp-Reality-Vision
-    type: vless
-    server: 178.18.147.163
-    port: 15530
-    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-    network: xhttp
-    servername: www.microsoft.com
+    servername: vk.com
     tls: true
     client-fingerprint: chrome
     reality-opts:
-      public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-      short-id: aa45df0f
+      public-key: PyV8IrAs0LkE2d_DdjvdCtpWG7MZyUKsYkb52GUmuDM
+      short-id: "67"
     udp: true
     xhttp-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-  - name: hysteria2-warp
-    type: hysteria2
-    server: 83.243.86.103
-    port: 38563
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: www.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: "[IPv6] 🇸🇪瑞典SE-191"
+      path: /
+      host: vk.com
+      mode: auto
+  - name: 美国
     type: vless
-    server: 95.85.246.16.speed-storage.ru
-    port: 573
-    uuid: 832f76f8-fca3-4efa-80be-870e123ad764
-    network: grpc
-    servername: 95.85.246.16.speed-storage.ru
-    tls: true
-    client-fingerprint: safari
-    grpc-opts:
-      grpc-service-name: /sequre/grpc/
-    udp: true
-  - name: 🇬🇧英国GB-616
-    type: vless
-    server: 79.141.171.133
-    port: 443
-    uuid: 4c3fe585-ac09-41df-b284-888818888188
-    servername: apple.com
+    server: 157.254.223.137
+    port: 24089
+    uuid: 0b138cbd-73f2-482c-ac69-c4b2ebeb891d
+    encryption: mlkem768x25519plus.native.0rtt.6CWgfTECvPCYcwQAV5DL6jVRvKfD83J1Djq2q9DIh8y7d4vP90AJFng38eQl8MxZcquOmhnFWYGW4ifEG-pNiMVQWBZiVrUgezGQnZEY33kktFc1ffaIV1OBdOqTgmWKrqE5e0M3WTiqjneY7yInWNqvUYmyfIsAJpO3NVaD5egKoeQ_RGFpoLAOf9M9QpFoLpqQMYcvGAFyiRZwBzwecHMiE4XC52G2bYA3IwvDYGtG3RPIYfE0NyRt9ojLjgBdgXewJXp8dMYimqZugVQ8n0qSRjGvqRwOTAuPAujEoKkREcOWShBg9XkWeWhB7hqdluk0VQWJXvxrygmMByAGiRAe5AakWBZlBNoVJvQZtWVNtwxq5JNV2HufvOmHS-QpzUl3zlRXuTSsLuiHkyUUZLWBJsu_JmSz1KdjF7a45iEhUSqP2InAv3YQc0ZTqiN4eZd0ScIRrORQvHIix2yToXHOZ5dN0sERUwrK5rkOf8ujgmMDSuo9MgQYiCa33bkO3oc1UEK-mHqxyxOzEmUWTeZmqJphkdxc8dc4OfiXhUJrwvHMEChqjvwRA9EmLxhucGHIuxIsgsbNN_Qw3_DCR4eMdtsUD7dAxbAw9aS37QC2B6wcPIEC-FkauDIFJLHIO-w5RzlelNBr5bdL7Fce67RrPLKkrjJxEqhEQxZdhIZltPAFXODEACIKhzIvlYefkikk2vCMZfm48SpI74RN21lm-crMpfNdUsOE0eI4sZyvSGe9cVTKAdgN1YgaqFoFmhQ1jrJsyWpeh3wZMAqScZqipMkddzQlynLBW-Jo4TmHKld-5eBdKtMwScQKG2sAZNs6knW8FxpT-5OfLAgGAne9URZCxSwwgisvpWk5_YCljtvPh_qw4IQa6CG4yocifZFzfzTAduNlmmKM6HNrSNhBhcOe1aBk9OWluqPGPzx8hol_4lojaYw2gZUEPgzLS-BpRAc-NIkGVldmn2XKnUF6IJRuPIZIdkK7hhddYufN1KObJySmTDkJ0EE3DJvPmdcdOCFJbdCl5pqnORChB3p1_Edd6oYohZk-dxUUBFgvyYdvFwGu_zlAVClOWTRIilgjH5OBEftgURyb4sZrWvgaJkxnv0ckXDmL1DkHh1yT6mi91Opu30sWIssSKaMVGcuhTFFyyfxETLN38-GVfRwf19FJSPs0HsRQJkRFnSx8CDcvmNarZzBR_JEDOsYqWLMQC5FqnZyQJLmHnuJ3OgcflTrCc9m1DIGbvZq_Z5ikQZSq2Ua469OSW1E1m-s4k5q0Y5RXppuf0Np2vykcLFZKLmmU5_ismTQHrJSnysQchxR68yEor8sXgmRDNHCC1GNKc5O1WmKKXbEXJyKo3vIxTDyHTUUpK5ma5LZ51UUEE8N-LPNlEtt2HIsOBvBrXflYrqOP1mZZDjYEJvSMhPp8Q7SyhWLFXqGQD6hBSYw8Q0V-Cog8FtpVV5EsGRFbt5iFCNwqfTwZMzE4ZEs3rumf3IO2P4nBfpuGjEw6pNZZyMtDbTq_pMlxzQI_N2NwBecyINeQ0RqzGM8De7RJpdu18NftXZyhrymcVpV-2L0
+    network: xhttp
+    servername: www.microsoft.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
-      short-id: aabbccdd
+      public-key: njrfRguP2WJFUtBH11bJTaIEfGIb28V7_Sahlhbldyw
+      short-id: 54ffd503
+    udp: true
+    xhttp-opts:
+      path: /S6wHAExO
+  - name: US_2
+    type: hysteria2
+    server: 157.254.223.43
+    port: 27921
+    password: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇩🇪 DE_20 | ⬇️ 27MB/s
+    type: ss
+    server: 57.129.47.47
+    port: 2053
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: 🇺🇸美国US-1106
+    type: vless
+    server: 77.105.162.153
+    port: 443
+    uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+    servername: gateway.icloud.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
+      short-id: c6118398
+    udp: true
+  - name: 🇵🇱波兰PL-612
+    type: vless
+    server: 144.31.4.166
+    port: 2053
+    uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
+    network: grpc
+    servername: www.deepl.com
+    tls: true
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: grpc
+    reality-opts:
+      public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+      short-id: 0123456789abcdef
+    udp: true
+  - name: 🇺🇸美国US-920
+    type: trojan
+    server: yespaintstudio.rav-kraski.ru
+    port: 50824
+    password: 7aXwJPnpAJ
+    sni: yespaintstudio.rav-kraski.ru
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: 🇵🇱波兰PL-1130
+    type: vless
+    server: 144.31.4.166
+    port: 443
+    uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
+    servername: www.deepl.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+      short-id: 0123456789abcdef
+    udp: true
+  - name: US_3
+    type: vless
+    server: pl74.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    servername: pl74.mechvpn.online
+    tls: true
+    flow: xtls-rprx-vision
+    udp: true
+  - name: 🇺🇸 美国-517
+    type: vless
+    server: 67.102.180.16
+    port: 443
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    servername: www.microsoft.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3j9h81MFAlsEOQ4K1ey1XD0tz1aEVNaMGMoMjQwif1w
+      short-id: "16"
+    udp: true
+  - name: 🇨🇴 哥伦比亚-272
+    type: vless
+    server: 159.195.82.187
+    port: 9443
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    servername: yahoo.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: 2344766a270a6298
     udp: true
   - name: 🇩🇪 DE_257 | ⬇️ 28MB/s
     type: ss
@@ -1012,50 +1003,52 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: 🇩🇪 DE_322 | ⬇️ 19MB/s
-    type: ss
-    server: 91.107.250.153
-    port: 8443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+  - name: 🇸🇪瑞典SE-1377
+    type: vless
+    server: 144.31.235.75
+    port: 443
+    uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
+    servername: www.deepl.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+      short-id: 0123456789abcdef
     udp: true
-  - name: 🇫🇷FR_1|1.1MB/s
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41273
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
+  - name: 🇬🇧 英国-403
+    type: vless
+    server: 185.184.70.120
+    port: 443
+    uuid: 145adeb9-279d-4c1d-a97c-93fe28ca071e
+    servername: time.is
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: KUD5RiuqMRrhOoN6X2FcXpYZfoN_7z8BcviSBlyxOBw
+      short-id: cbd8f4
+    udp: true
+  - name: 🇺🇸 美国-357
+    type: vless
+    server: ohio1.ap221.com
+    port: 443
+    uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+    servername: ohio.ap221.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: US SS-23 | free-nodes
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
     udp: true
   - name: 🇭🇰 HK_296 | ⬇️ 26MB/s
     type: ss
     server: 138.124.111.115
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: US_1
-    type: vless
-    server: pl74.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    servername: pl74.mechvpn.online
-    tls: true
-    flow: xtls-rprx-vision
-    udp: true
-  - name: 🇭🇰 HK_297 | ⬇️ 26MB/s
-    type: ss
-    server: 101.79.165.113
     port: 443
     cipher: none
     password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
@@ -1077,52 +1070,9 @@ proxies:
       host: woshinidie-et3.pages.dev
       path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
     udp: true
-  - name: US SS-23 | free-nodes
+  - name: 🇩🇪 DE_322 | ⬇️ 19MB/s
     type: ss
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
-    udp: true
-  - name: 🇸🇬 SG_287 | ⬇️ 21MB/s
-    type: ss
-    server: 157.245.56.32
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇩🇪 DE_20 | ⬇️ 27MB/s
-    type: ss
-    server: 57.129.47.47
-    port: 2053
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇸🇬 SG_270 | ⬇️ 42MB/s
-    type: ss
-    server: 143.198.209.123
-    port: 443
-    cipher: none
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
-    udp: true
-  - name: 🇰🇷 KR_292 | ⬇️ 12MB/s
-    type: ss
-    server: 64.176.226.26
+    server: 91.107.250.153
     port: 8443
     cipher: none
     password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
@@ -1141,29 +1091,42 @@ proxies:
     tls: true
     client-fingerprint: chrome
     udp: true
-  - name: 🇹🇼 TW 020 | ⬇️ 12MB/s
+  - name: 🇱🇹 立陶宛-328
     type: vless
-    server: 125.227.219.98
-    port: 6235
-    uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
-    network: ws
-    servername: baidu.com
+    server: 84.32.209.6
+    port: 443
+    uuid: 37253a6a-2a9b-42bb-992c-b5f1b1ef1791
+    servername: vltch.mostserv.xyz
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+      short-id: 226509f017e4c36d
+    udp: true
+  - name: 🇩🇪 德国DE-197
+    type: hysteria2
+    server: 178.18.147.66
+    port: 29900
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: VLESS-xhttp-Reality-Vision
+    type: vless
+    server: 178.18.147.163
+    port: 15530
+    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
+    network: xhttp
+    servername: www.microsoft.com
     tls: true
     client-fingerprint: chrome
-    ws-opts:
-      path: /xxxxhttp
-      headers:
-        Host: baidu.com
+    reality-opts:
+      public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+      short-id: aa45df0f
     udp: true
-  - name: 🇺🇸美国US-98
-    type: anytls
-    server: b51e6b6b-tegxs0-truoje-1uni.sj.oshuawei.com
-    port: 8443
-    password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-    sni: b51e6b6b-tegxs0-truoje-1uni.sj.oshuawei.com
-    skip-cert-verify: true
-    tls: true
-    udp: true
+    xhttp-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
   - name: 🇯🇵日本JP纯净-669
     type: vmess
     server: 103.127.243.59
@@ -1174,13 +1137,66 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 🇫🇷FR_3|1.5MB/s
-    type: hysteria2
-    server: 163.172.113.118
-    port: 41211
-    password: dongtaiwang.com
-    sni: www.microsoft.com
-    skip-cert-verify: true
+  - name: 🇰🇷韩国KR-948
+    type: vless
+    server: 61.111.247.233
+    port: 34045
+    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+      short-id: e8ab71d0
+    udp: true
+  - name: 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+    type: vless
+    server: 61.111.247.233
+    port: 34045
+    uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+      short-id: e8ab71d0
+    udp: true
+  - name: 🇭🇰 HK_297 | ⬇️ 26MB/s
+    type: ss
+    server: 101.79.165.113
+    port: 443
+    cipher: none
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\=2560
+    udp: true
+  - name: US VLESS-65 | free-nodes
+    type: vless
+    server: ohio1.ap221.com
+    port: 443
+    uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+    servername: ohio.ap221.com
+    tls: true
+    client-fingerprint: chrome
+    udp: true
+  - name: 未知 SS-28 | free-nodes
+    type: ss
+    server: 82.38.31.134
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+  - name: SG VLESS-71 | free-nodes
+    type: vless
+    server: sg1.ap221.com
+    port: 443
+    uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+    servername: sg.ap221.com
+    tls: true
+    client-fingerprint: chrome
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
@@ -1188,219 +1204,213 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1410,441 +1420,429 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1867,111 +1865,108 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵日本JP纯净-97
-      - 🇭🇰香港HK纯净-420
+      - 🇯🇵 日本-548
+      - 🇸🇬新加坡SG-649
       - 🇰🇷 KR_2785 | ⬇️ 29MB/s
+      - 🇰🇷韩国KR-870
+      - 🇷🇺俄罗斯RU-880
+      - 🇬🇧 英国-506
       - 🇸🇬 SG_275 | ⬇️ 40MB/s
-      - 🇷🇺俄罗斯RU-871
-      - 🇷🇺俄罗斯RU-823
-      - 英国 V2CROSS.COM
-      - 🇺🇸 美国US 224
-      - 🇺🇸美国US-220
-      - 德国
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国US-218
-      - 🇺🇸美国US-178
-      - 🇺🇸美国US有风险-229
       - 🇰🇷 KR_2372 | ⬇️ 34MB/s
-      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
-      - 🇰🇷 KR_284 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
-      - 🇺🇸US_1|7.5MB/s
-      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
-      - US
-      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
       - 🇰🇷 KR_2477 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
-      - 🇺🇸 美国US 210
-      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
-      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
-      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
-      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
-      - 🇺🇸 美国US 215
-      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
-      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
-      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
-      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
-      - 🇫🇷法国FR-90
-      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
-      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
-      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
-      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
-      - 🇫🇷FR_2|1.1MB/s
-      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
-      - 🇰🇷 KR_2147 | ⬇️ 12MB/s
-      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-80
-      - 🇬🇧 英国-1146
-      - 🇰🇷 KR_2218 | ⬇️ 32MB/s
-      - 🇩🇪DE_2|2.2MB/s
-      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
-      - 🇬🇧 英国 V2CROSS.COM_1
-      - 🇬🇧 英国-960
-      - 🇺🇸美国US-205
-      - 🇵🇱波兰PL-807
-      - 🇮🇳印度IN-568
-      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
-      - 🇫🇷法国FR-98
-      - 🇺🇸 美国-1157
-      - 🇺🇸美国US有风险-206
-      - 00-Trojan-jp-AI
-      - 🇺🇸 美国-949
-      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
-      - 🇵🇱波兰PL-203
-      - 🇺🇸 US_299 | ⬇️ 25MB/s
-      - 🇸🇬 SG_289 | ⬇️ 36MB/s
-      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
-      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
-      - 🇹🇼 台湾-1188
-      - 🇰🇷 KR_285 | ⬇️ 24MB/s
-      - 🇩🇪 DE_236 | ⬇️ 37MB/s
-      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
-      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
-      - 🇰🇷 KR_291 | ⬇️ 43MB/s
       - 🇰🇷 KR_2681 | ⬇️ 37MB/s
-      - 🇫🇷法国FR-85
-      - 🇩🇪 DE_13 | ⬇️ 13MB/s
-      - 🇩🇪 德国DE-197
-      - 🇺🇸 美国-948
-      - 🇵🇱波兰PL-291
-      - 🇫🇷法国FR-88
-      - VLESS-xhttp-Reality-Vision
-      - hysteria2-warp
-      - "[IPv6] 🇸🇪瑞典SE-191"
-      - 🇬🇧英国GB-616
-      - 🇩🇪 DE_257 | ⬇️ 28MB/s
-      - 🇩🇪 DE_322 | ⬇️ 19MB/s
-      - 🇫🇷FR_1|1.1MB/s
-      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇰🇷 KR_2890 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2385 | ⬇️ 13MB/s
+      - 🇰🇷 KR_2855 | ⬇️ 38MB/s
+      - 🇰🇷 KR_2863 | ⬇️ 10MB/s
+      - 🇰🇷 KR_2336 | ⬇️ 33MB/s
+      - 🇰🇷 KR_2792 | ⬇️ 34MB/s
+      - 🇰🇷 KR_2679 | ⬇️ 40MB/s
+      - 🇰🇷 KR_2869 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2589 | ⬇️ 20MB/s
+      - 🇰🇷 KR_2518 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2352 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2742 | ⬇️ 49MB/s
+      - 🇰🇷 KR_2260 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2623 | ⬇️ 47MB/s
+      - 🇰🇷 KR_2443 | ⬇️ 12MB/s
+      - 🇰🇷 KR_2889 | ⬇️ 27MB/s
+      - 🇰🇷 KR_2504 | ⬇️ 14MB/s
+      - 🇰🇷 KR_2862 | ⬇️ 32MB/s
+      - 🇰🇷 KR_2421 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2630 | ⬇️ 28MB/s
+      - 🇰🇷 KR_2562 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2513 | ⬇️ 35MB/s
+      - 🇰🇷 KR_2898 | ⬇️ 42MB/s
+      - 🇰🇷 KR_2884 | ⬇️ 22MB/s
+      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
+      - Misaka-Hysteria-6
+      - 🇰🇷 KR_291 | ⬇️ 43MB/s
+      - 🇺🇸美国US-790
+      - 🇺🇸 美国-277
+      - 🇺🇸 美国US 224
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 德国
+      - 🇰🇷 KR_2875 | ⬇️ 12MB/s
+      - 🇩🇪 德国 04
+      - 🇺🇸美国US-220
+      - 🇩🇪 德国 01
+      - 🇺🇸 美国US 215
+      - 🇺🇸US_1|7.5MB/s
+      - 🇺🇸美国US-205
+      - US
+      - 🇰🇷 KR_2141 | ⬇️ 44MB/s
+      - 🇰🇷韩国KR-712
+      - 🇺🇸 美国-278
+      - 🇰🇷 KR_2750 | ⬇️ 29MB/s
+      - "[IPv6] 🇸🇪瑞典SE-620"
+      - 🇺🇸 US_299 | ⬇️ 25MB/s
+      - 🇰🇷 KR_2729 | ⬇️ 29MB/s
+      - 🇰🇷 KR_2751 | ⬇️ 45MB/s
+      - 00-Trojan-jp-AI
+      - nhysc6zej-4
+      - 🇸🇬 SG_289 | ⬇️ 36MB/s
+      - 🇱🇹 立陶宛 01 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 KR_2903 | ⬇️ 14MB/s
+      - 🇳🇱_NL_荷兰-8
+      - 🇰🇷 KR_284 | ⬇️ 37MB/s
+      - 🇰🇷 KR_285 | ⬇️ 24MB/s
+      - 🇵🇱波兰PL-1391
+      - GB
+      - 🇫🇮芬兰FI-1343
       - US_1
-      - 🇭🇰 HK_297 | ⬇️ 26MB/s
-      - 🇭🇰 HK_293 | ⬇️ 48MB/s
-      - US SS-23 | free-nodes
-      - 🇸🇬 SG_287 | ⬇️ 21MB/s
+      - 🇩🇪 DE_13 | ⬇️ 13MB/s
+      - 🇩🇪 DE_236 | ⬇️ 37MB/s
+      - 🇳🇱 荷兰-290
+      - 美国
+      - US_2
       - 🇩🇪 DE_20 | ⬇️ 27MB/s
-      - 🇸🇬 SG_270 | ⬇️ 42MB/s
-      - 🇰🇷 KR_292 | ⬇️ 12MB/s
+      - 🇺🇸美国US-1106
+      - 🇵🇱波兰PL-612
+      - 🇺🇸美国US-920
+      - 🇵🇱波兰PL-1130
+      - US_3
+      - 🇺🇸 美国-517
+      - 🇨🇴 哥伦比亚-272
+      - 🇩🇪 DE_257 | ⬇️ 28MB/s
+      - 🇸🇪瑞典SE-1377
+      - 🇬🇧 英国-403
+      - 🇺🇸 美国-357
+      - US SS-23 | free-nodes
+      - 🇭🇰 HK_296 | ⬇️ 26MB/s
+      - 🇭🇰 HK_293 | ⬇️ 48MB/s
+      - 🇩🇪 DE_322 | ⬇️ 19MB/s
       - 🇷🇺俄罗斯RU-874
-      - 🇹🇼 TW 020 | ⬇️ 12MB/s
-      - 🇺🇸美国US-98
+      - 🇱🇹 立陶宛-328
+      - 🇩🇪 德国DE-197
+      - VLESS-xhttp-Reality-Vision
       - 🇯🇵日本JP纯净-669
-      - 🇫🇷FR_3|1.5MB/s
+      - 🇰🇷韩国KR-948
+      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 HK_297 | ⬇️ 26MB/s
+      - US VLESS-65 | free-nodes
+      - 未知 SS-28 | free-nodes
+      - SG VLESS-71 | free-nodes
 rule-providers:
   LocalAreaNetwork:
     type: http
